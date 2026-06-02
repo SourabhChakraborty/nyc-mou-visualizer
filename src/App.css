@@ -171,6 +171,9 @@ html, body, #root {
   line-height: 1;
   display: flex;
   align-items: center;
+  justify-content: center;
+  min-width: 24px;
+  min-height: 24px;
 }
 
 .filter-pill button:hover {
@@ -236,7 +239,7 @@ html, body, #root {
   bottom: 16px;
   left: 16px;
   font-size: 11px;
-  color: var(--text-dim);
+  color: var(--text-muted);
   pointer-events: none;
 }
 
@@ -408,8 +411,13 @@ tbody td {
   cursor: pointer;
   font-size: 20px;
   line-height: 1;
-  padding: 0 2px;
+  padding: 0;
   flex-shrink: 0;
+  min-width: 44px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .detail-close:hover {
@@ -519,6 +527,80 @@ tbody td {
 .footer-link {
   flex-shrink: 0;
   margin-left: 16px;
+}
+
+/* ── Mobile ── */
+@media (max-width: 640px) {
+  .app-header {
+    padding: 8px 12px;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .header-title h1 {
+    font-size: 14px;
+  }
+
+  .header-subtitle {
+    display: none;
+  }
+
+  .view-toggle button {
+    padding: 10px 14px;
+    font-size: 12px;
+  }
+
+  .filter-bar {
+    padding: 6px 12px;
+    gap: 6px;
+  }
+
+  .filter-input {
+    min-width: 0;
+    flex: 1;
+    min-height: 44px;
+  }
+
+  .filter-select {
+    min-height: 44px;
+  }
+
+  .app-footer {
+    padding: 5px 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+  }
+
+  .app-footer > span {
+    display: none;
+  }
+
+  .footer-link {
+    margin-left: 0;
+    font-size: 11px;
+  }
+
+  .table-container {
+    padding: 8px 0;
+    overflow-x: auto;
+  }
+
+  table {
+    min-width: 600px;
+  }
+
+  .network-legend--desktop {
+    display: none;
+  }
+
+  .detail-panel {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    z-index: 100;
+    border-left: none;
+  }
 }
 
 /* ── Scrollbar ── */

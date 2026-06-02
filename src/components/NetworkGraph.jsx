@@ -19,10 +19,12 @@ export default function NetworkGraph({ agreements, agencyMap, categoryColors, se
   const containerRef = useRef(null)
   const svgRef = useRef(null)
   const linkSelRef = useRef(null)
+  const hitLinkRef = useRef(null)
   const selectedRef = useRef(selected)
   const [tooltip, setTooltip] = useState(null)
   const [edgeMenu, setEdgeMenu] = useState(null)
   const [activeDomains, setActiveDomains] = useState(new Set())
+  const [filterCollapsed, setFilterCollapsed] = useState(() => window.innerWidth < 640)
 
   // Domains present in the current filtered agreements
   const presentDomains = useMemo(() => {
@@ -134,6 +136,7 @@ export default function NetworkGraph({ agreements, agencyMap, categoryColors, se
     const hasDomainFilter = activeDomains.size > 0
     const sel = selectedRef.current
 
+    // Visible lines — no pointer events (hit area handles interaction)
     const link = g.append('g').selectAll('line')
       .data(links)
       .join('line')
@@ -147,10 +150,21 @@ export default function NetworkGraph({ agreements, agencyMap, categoryColors, se
       })
       .attr('stroke-width', d => d.baseWidth)
       .attr('stroke-linecap', 'round')
+      .style('pointer-events', 'none')
+
+    linkSelRef.current = link
+
+    // Transparent wide hit-area lines for fat touch targets
+    const hitLink = g.append('g').selectAll('line')
+      .data(links)
+      .join('line')
+      .attr('stroke', 'transparent')
+      .attr('stroke-width', 20)
+      .attr('stroke-linecap', 'round')
       .style('cursor', 'pointer')
       .on('mouseenter', (event, d) => {
         const isSel = selectedRef.current && d.agreements.some(a => a.id === selectedRef.current.id)
-        if (!isSel) d3.select(event.currentTarget).attr('stroke', '#e2e8f0').attr('stroke-opacity', 0.9)
+        if (!isSel) link.filter(l => l === d).attr('stroke', '#e2e8f0').attr('stroke-opacity', 0.9)
         setTooltip({
           x: event.clientX - container.getBoundingClientRect().left,
           y: event.clientY - container.getBoundingClientRect().top,
@@ -166,7 +180,7 @@ export default function NetworkGraph({ agreements, agencyMap, categoryColors, se
       .on('mouseleave', (event, d) => {
         const isSel = selectedRef.current && d.agreements.some(a => a.id === selectedRef.current.id)
         const domainMatch = activeDomains.size === 0 || activeDomains.has(d.domain)
-        d3.select(event.currentTarget)
+        link.filter(l => l === d)
           .attr('stroke', isSel ? '#e2e8f0' : d.domainColor)
           .attr('stroke-opacity', isSel ? 1 : (domainMatch ? 0.75 : 0.1))
         setTooltip(null)
@@ -186,7 +200,7 @@ export default function NetworkGraph({ agreements, agencyMap, categoryColors, se
         }
       })
 
-    linkSelRef.current = link
+    hitLinkRef.current = hitLink
 
     const node = g.append('g').selectAll('g')
       .data(nodes)
@@ -226,7 +240,15 @@ export default function NetworkGraph({ agreements, agencyMap, categoryColors, se
       .on('click', (event, d) => {
         event.stopPropagation()
         setEdgeMenu(null)
-        if (d.agreements.length > 0) onSelect(d.agreements[0])
+        if (d.agreements.length === 1) {
+          onSelect(d.agreements[0])
+        } else if (d.agreements.length > 1) {
+          setEdgeMenu({
+            x: event.clientX - container.getBoundingClientRect().left,
+            y: event.clientY - container.getBoundingClientRect().top,
+            agreements: d.agreements,
+          })
+        }
       })
 
     node.append('text')
@@ -241,6 +263,8 @@ export default function NetworkGraph({ agreements, agencyMap, categoryColors, se
     sim.on('tick', () => {
       link.attr('x1', d => d.source.x).attr('y1', d => d.source.y)
           .attr('x2', d => d.target.x).attr('y2', d => d.target.y)
+      hitLink.attr('x1', d => d.source.x).attr('y1', d => d.source.y)
+             .attr('x2', d => d.target.x).attr('y2', d => d.target.y)
       node.attr('transform', d => `translate(${d.x},${d.y})`)
     })
 
@@ -268,39 +292,50 @@ export default function NetworkGraph({ agreements, agencyMap, categoryColors, se
           background: 'rgba(22,27,39,0.92)', border: '1px solid #2a3348',
           borderRadius: 8, padding: '8px 10px', maxWidth: 220,
         }}>
-          <div style={{ fontSize: 10, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.5px', color: '#4a5568', marginBottom: 7 }}>
-            Filter edges by data domain
+          <div
+            style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 8, cursor: 'pointer' }}
+            onClick={() => setFilterCollapsed(c => !c)}
+          >
+            <div style={{ fontSize: 12, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.5px', color: '#8896a8' }}>
+              Filter edges by data domain
+              {activeDomains.size > 0 && <span style={{ color: '#3b82f6', marginLeft: 5 }}>({activeDomains.size})</span>}
+            </div>
+            <span style={{ color: '#4a5568', fontSize: 12, lineHeight: 1, flexShrink: 0 }}>{filterCollapsed ? '▸' : '▾'}</span>
           </div>
-          <div style={{ display: 'flex', flexWrap: 'wrap', gap: 5 }}>
-            {presentDomains.map(domain => {
-              const color = DOMAIN_COLORS[domain] ?? '#4a5568'
-              const active = activeDomains.has(domain)
-              return (
+          {!filterCollapsed && (
+            <>
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: 5, marginTop: 7 }}>
+                {presentDomains.map(domain => {
+                  const color = DOMAIN_COLORS[domain] ?? '#4a5568'
+                  const active = activeDomains.has(domain)
+                  return (
+                    <button
+                      key={domain}
+                      onClick={() => toggleDomain(domain)}
+                      style={{
+                        display: 'flex', alignItems: 'center', gap: 5,
+                        background: active ? color + '33' : 'transparent',
+                        border: `1px solid ${active ? color : '#2a3348'}`,
+                        borderRadius: 100, padding: '3px 8px 3px 6px',
+                        cursor: 'pointer', fontSize: 11, color: active ? '#e2e8f0' : '#64748b',
+                        transition: 'all 0.15s',
+                      }}
+                    >
+                      <span style={{ width: 8, height: 8, borderRadius: '50%', background: color, flexShrink: 0 }} />
+                      {domain}
+                    </button>
+                  )
+                })}
+              </div>
+              {activeDomains.size > 0 && (
                 <button
-                  key={domain}
-                  onClick={() => toggleDomain(domain)}
-                  style={{
-                    display: 'flex', alignItems: 'center', gap: 5,
-                    background: active ? color + '33' : 'transparent',
-                    border: `1px solid ${active ? color : '#2a3348'}`,
-                    borderRadius: 100, padding: '3px 8px 3px 6px',
-                    cursor: 'pointer', fontSize: 11, color: active ? '#e2e8f0' : '#64748b',
-                    transition: 'all 0.15s',
-                  }}
+                  onClick={() => setActiveDomains(new Set())}
+                  style={{ marginTop: 6, background: 'none', border: 'none', color: '#4a5568', fontSize: 11, cursor: 'pointer', padding: 0 }}
                 >
-                  <span style={{ width: 8, height: 8, borderRadius: '50%', background: color, flexShrink: 0 }} />
-                  {domain}
+                  Clear filter
                 </button>
-              )
-            })}
-          </div>
-          {activeDomains.size > 0 && (
-            <button
-              onClick={() => setActiveDomains(new Set())}
-              style={{ marginTop: 6, background: 'none', border: 'none', color: '#4a5568', fontSize: 11, cursor: 'pointer', padding: 0 }}
-            >
-              Clear filter
-            </button>
+              )}
+            </>
           )}
         </div>
       )}
@@ -350,7 +385,7 @@ export default function NetworkGraph({ agreements, agencyMap, categoryColors, se
       </div>
 
       {/* Legend: edges by domain + nodes by category */}
-      <div className="network-legend">
+      <div className="network-legend network-legend--desktop">
         <h4>Edges — data domain</h4>
         {presentDomains.map(d => (
           <div key={d} className="legend-item">
