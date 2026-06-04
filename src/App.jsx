@@ -5,6 +5,7 @@ import AgreementTable from './components/AgreementTable'
 import AgreementDetail from './components/AgreementDetail'
 import DataTypesView from './components/DataTypesView'
 import FilterBar from './components/FilterBar'
+import AboutView from './components/AboutView'
 import './App.css'
 
 export const CATEGORY_COLORS = {
@@ -86,6 +87,12 @@ export default function App() {
           >
             Table
           </button>
+          <button
+            className={view === 'about' ? 'active' : ''}
+            onClick={() => setView('about')}
+          >
+            About
+          </button>
         </div>
       </header>
 
@@ -124,6 +131,7 @@ export default function App() {
               onSelect={setSelected}
             />
           )}
+          {view === 'about' && <AboutView />}
         </div>
 
         {selected && (
