@@ -27,7 +27,7 @@ export default function App() {
   const [filters, setFilters] = useState({
     agencies: [],
     categories: [],
-    yearRange: [2015, 2025],
+    yearRange: [2010, 2026],
     search: '',
     dataSource: 'all',
   })
@@ -41,9 +41,9 @@ export default function App() {
     return data.agreements.filter(a => {
       if (filters.agencies.length && !a.parties.some(p => filters.agencies.includes(p))) return false
       if (filters.categories.length && !filters.categories.includes(a.category)) return false
-      if (a.year < filters.yearRange[0] || a.year > filters.yearRange[1]) return false
+      if (a.year && (a.year < filters.yearRange[0] || a.year > filters.yearRange[1])) return false
       if (filters.dataSource === 'confirmed' && a.data_source !== 'confirmed') return false
-      if (filters.dataSource === 'seeded' && a.data_source !== 'seeded') return false
+      if (filters.dataSource === 'scraped' && a.data_source !== 'scraped') return false
       if (filters.search) {
         const q = filters.search.toLowerCase()
         if (
@@ -150,7 +150,7 @@ export default function App() {
           <a href="https://www.nyc.gov/site/records/about/agency-mous.page" target="_blank" rel="noreferrer">
             Local Law 40 of 2011
           </a>
-          . Confirmed entries link to published PDFs; seeded entries are manually curated.
+          . Confirmed entries are manually curated; scraped entries are extracted directly from agency MOU pages.
         </span>
         <a className="footer-link" href="https://www.nyc.gov/content/oti/pages/data-analytics/citywide-data-sharing" target="_blank" rel="noreferrer">
           NYC Citywide Data Sharing ↗

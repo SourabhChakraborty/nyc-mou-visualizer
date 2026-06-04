@@ -60,8 +60,8 @@ export default function AboutView() {
             <a href="https://www.nyc.gov/site/records/about/agency-mous.page" target="_blank" rel="noreferrer">
               Local Law 40 of 2011
             </a>
-            . Confirmed entries link to published PDFs; seeded entries are manually curated
-            and not yet verified against a source document.
+            . Confirmed entries are manually curated; scraped entries are extracted directly
+            from agency MOU pages and each links to a published PDF.
           </p>
         </section>
       </div>

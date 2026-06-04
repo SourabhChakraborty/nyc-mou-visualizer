@@ -67,7 +67,7 @@ export default function FilterBar({ filters, onChange, agencies, categories }) {
       >
         <option value="all">All sources</option>
         <option value="confirmed">Confirmed only</option>
-        <option value="seeded">Seeded only</option>
+        <option value="scraped">Scraped only</option>
       </select>
 
       <div className="year-range">

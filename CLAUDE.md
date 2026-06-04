@@ -21,7 +21,7 @@ Pushes to `main` auto-deploy via GitHub Actions (`.github/workflows/deploy.yml`)
 - `"data_source": "confirmed"` — manually curated with a verified published PDF link
 - `"data_source": "scraped"` — extracted directly from agency MOU pages; `pdfUrl` links to the actual published document
 
-**NEVER add `"data_source": "seeded"` entries or invent agreement data.** All past seeded entries were verified to be hallucinated — none appeared on the actual agency MOU pages. Any new entry must either have a real `pdfUrl` pointing to a published NYC government PDF, or be personally verified against a primary source by the user.
+**NEVER invent agreement data.** Any new entry must have a real `pdfUrl` pointing to a published NYC government PDF. Do not add entries without a primary source.
 
 ### Re-scraping
 

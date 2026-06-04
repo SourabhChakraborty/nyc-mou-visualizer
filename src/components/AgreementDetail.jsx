@@ -79,9 +79,9 @@ export default function AgreementDetail({ agreement: a, agencyMap, onClose }) {
           <span className="detail-label">Data Source</span>
           <span className="detail-value">
             <span className={`source-badge source-${a.data_source}`}>{a.data_source}</span>
-            {a.data_source === 'seeded' && (
+            {a.data_source === 'scraped' && (
               <span style={{ fontSize: 11, color: '#64748b', marginLeft: 6 }}>
-                Manually curated — not yet verified against a published PDF
+                Extracted from agency MOU page — links to published PDF
               </span>
             )}
           </span>
