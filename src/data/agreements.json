@@ -1,41 +1,167 @@
 {
   "agencies": [
-    { "id": "HRA",   "name": "Human Resources Administration",         "mouUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page" },
-    { "id": "DOF",   "name": "Department of Finance",                  "mouUrl": "https://www.nyc.gov/site/finance/about/interagency-mou.page" },
-    { "id": "DOHMH", "name": "Department of Health and Mental Hygiene","mouUrl": "https://www.nyc.gov/site/doh/about/about-doh/interagency-mous.page" },
-    { "id": "DOE",   "name": "Department of Education",                "mouUrl": null },
-    { "id": "ACS",   "name": "Administration for Children's Services", "mouUrl": "https://www.nyc.gov/site/acs/about/interagency-memoranda-of-understanding.page" },
-    { "id": "DHS",   "name": "Department of Homeless Services",        "mouUrl": null },
-    { "id": "NYPD",  "name": "Police Department",                      "mouUrl": null },
-    { "id": "DOC",   "name": "Department of Correction",               "mouUrl": null },
-    { "id": "HPD",   "name": "Housing Preservation and Development",   "mouUrl": "https://www.nyc.gov/site/hpd/about/interagency-mous.page" },
-    { "id": "DFTA",  "name": "Department for the Aging",               "mouUrl": "https://www.nyc.gov/site/dfta/about/interagency-mous.page" },
-    { "id": "DYCD",  "name": "Dept. of Youth and Community Dev.",      "mouUrl": "https://www.nyc.gov/site/dycd/about/about-dycd/interagency-mous.page" },
-    { "id": "DOT",   "name": "Department of Transportation",           "mouUrl": "https://www.nyc.gov/html/dot/html/about/mou_dot.shtml" },
-    { "id": "DCAS",  "name": "Dept. of Citywide Administrative Services","mouUrl": "https://www.nyc.gov/site/dcas/about/interagency-memoranda-of-understanding-mous.page" },
-    { "id": "OMB",   "name": "Office of Management and Budget",        "mouUrl": "https://www.nyc.gov/site/omb/about/interagency-mous.page" },
-    { "id": "SBS",   "name": "Small Business Services",                "mouUrl": "https://www.nyc.gov/site/sbs/about/interagency-mous.page" },
-    { "id": "DOB",   "name": "Department of Buildings",                "mouUrl": "https://www.nyc.gov/site/buildings/dob/interagency-mous.page" },
-    { "id": "DORIS", "name": "Dept. of Records and Information Services","mouUrl": "https://www.nyc.gov/site/records/about/agency-mous.page" },
-    { "id": "OTI",   "name": "Office of Technology and Innovation",    "mouUrl": null },
-    { "id": "LAW",   "name": "Law Department",                         "mouUrl": "https://www.nyc.gov/site/law/about/interagency-mous.page" },
-    { "id": "MOCJ",  "name": "Mayor's Office of Criminal Justice",     "mouUrl": null },
-    { "id": "OCME",  "name": "Office of Chief Medical Examiner",       "mouUrl": null },
-    { "id": "DEP",   "name": "Department of Environmental Protection", "mouUrl": null },
-    { "id": "DSNY",  "name": "Department of Sanitation",               "mouUrl": null },
-    { "id": "CUNY",  "name": "City University of New York",            "mouUrl": null },
-    { "id": "OMH",   "name": "Office of Mental Health (NYS)",          "mouUrl": null },
-    { "id": "DOP",   "name": "Department of Probation",                "mouUrl": "https://www.nyc.gov/site/probation/about/interagency-mous.page" }
+    {
+      "id": "HRA",
+      "name": "Human Resources Administration",
+      "mouUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page"
+    },
+    {
+      "id": "DOF",
+      "name": "Department of Finance",
+      "mouUrl": "https://www.nyc.gov/site/finance/about/interagency-mou.page"
+    },
+    {
+      "id": "DOHMH",
+      "name": "Department of Health and Mental Hygiene",
+      "mouUrl": "https://www.nyc.gov/site/doh/about/about-doh/interagency-mous.page"
+    },
+    {
+      "id": "DOE",
+      "name": "Department of Education",
+      "mouUrl": null
+    },
+    {
+      "id": "ACS",
+      "name": "Administration for Children's Services",
+      "mouUrl": "https://www.nyc.gov/site/acs/about/interagency-memoranda-of-understanding.page"
+    },
+    {
+      "id": "DHS",
+      "name": "Department of Homeless Services",
+      "mouUrl": null
+    },
+    {
+      "id": "NYPD",
+      "name": "Police Department",
+      "mouUrl": null
+    },
+    {
+      "id": "DOC",
+      "name": "Department of Correction",
+      "mouUrl": null
+    },
+    {
+      "id": "HPD",
+      "name": "Housing Preservation and Development",
+      "mouUrl": "https://www.nyc.gov/site/hpd/about/interagency-mous.page"
+    },
+    {
+      "id": "DFTA",
+      "name": "Department for the Aging",
+      "mouUrl": "https://www.nyc.gov/site/dfta/about/interagency-mous.page"
+    },
+    {
+      "id": "DYCD",
+      "name": "Dept. of Youth and Community Dev.",
+      "mouUrl": "https://www.nyc.gov/site/dycd/about/about-dycd/interagency-mous.page"
+    },
+    {
+      "id": "DOT",
+      "name": "Department of Transportation",
+      "mouUrl": "https://www.nyc.gov/html/dot/html/about/mou_dot.shtml"
+    },
+    {
+      "id": "DCAS",
+      "name": "Dept. of Citywide Administrative Services",
+      "mouUrl": "https://www.nyc.gov/site/dcas/about/interagency-memoranda-of-understanding-mous.page"
+    },
+    {
+      "id": "OMB",
+      "name": "Office of Management and Budget",
+      "mouUrl": "https://www.nyc.gov/site/omb/about/interagency-mous.page"
+    },
+    {
+      "id": "SBS",
+      "name": "Small Business Services",
+      "mouUrl": "https://www.nyc.gov/site/sbs/about/interagency-mous.page"
+    },
+    {
+      "id": "DOB",
+      "name": "Department of Buildings",
+      "mouUrl": "https://www.nyc.gov/site/buildings/dob/interagency-mous.page"
+    },
+    {
+      "id": "DORIS",
+      "name": "Dept. of Records and Information Services",
+      "mouUrl": "https://www.nyc.gov/site/records/about/agency-mous.page"
+    },
+    {
+      "id": "OTI",
+      "name": "Office of Technology and Innovation",
+      "mouUrl": null
+    },
+    {
+      "id": "LAW",
+      "name": "Law Department",
+      "mouUrl": "https://www.nyc.gov/site/law/about/interagency-mous.page"
+    },
+    {
+      "id": "MOCJ",
+      "name": "Mayor's Office of Criminal Justice",
+      "mouUrl": null
+    },
+    {
+      "id": "OCME",
+      "name": "Office of Chief Medical Examiner",
+      "mouUrl": null
+    },
+    {
+      "id": "DEP",
+      "name": "Department of Environmental Protection",
+      "mouUrl": null
+    },
+    {
+      "id": "DSNY",
+      "name": "Department of Sanitation",
+      "mouUrl": null
+    },
+    {
+      "id": "CUNY",
+      "name": "City University of New York",
+      "mouUrl": null
+    },
+    {
+      "id": "OMH",
+      "name": "Office of Mental Health (NYS)",
+      "mouUrl": null
+    },
+    {
+      "id": "DOP",
+      "name": "Department of Probation",
+      "mouUrl": "https://www.nyc.gov/site/probation/about/interagency-mous.page"
+    },
+    {
+      "id": "Parks",
+      "name": "NYC Parks & Recreation",
+      "mouUrl": null
+    },
+    {
+      "id": "HHC",
+      "name": "NYC Health + Hospitals",
+      "mouUrl": null
+    },
+    {
+      "id": "MOPT",
+      "name": "Mayor's Office for People with Disabilities / MOPT",
+      "mouUrl": null
+    }
   ],
   "agreements": [
     {
       "id": "hra-dof-darb-2019",
       "title": "DARB Data Share MOU & BAA",
-      "parties": ["HRA", "DOF"],
+      "parties": [
+        "HRA",
+        "DOF"
+      ],
       "date": "2019-04-01",
       "year": 2019,
       "category": "Financial/Benefits",
-      "dataTypes": ["Financial Records", "Benefits Eligibility", "Protected Health Information"],
+      "dataTypes": [
+        "Financial Records",
+        "Benefits Eligibility",
+        "Protected Health Information"
+      ],
       "jurisdiction": "nyc",
       "pdfUrl": null,
       "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
@@ -45,11 +171,19 @@
     {
       "id": "hra-cuny-dohmh-hasa-2019",
       "title": "HASA Pilot Program Data Sharing",
-      "parties": ["HRA", "CUNY", "DOHMH"],
+      "parties": [
+        "HRA",
+        "CUNY",
+        "DOHMH"
+      ],
       "date": "2019-12-18",
       "year": 2019,
       "category": "Health Data",
-      "dataTypes": ["Health Records", "Case Records", "Program Participation"],
+      "dataTypes": [
+        "Health Records",
+        "Case Records",
+        "Program Participation"
+      ],
       "jurisdiction": "nyc",
       "pdfUrl": null,
       "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
@@ -59,11 +193,18 @@
     {
       "id": "hra-doe-idnyc-2019",
       "title": "IDNYC Middle School Cards MOU",
-      "parties": ["HRA", "DOE"],
+      "parties": [
+        "HRA",
+        "DOE"
+      ],
       "date": "2019-11-20",
       "year": 2019,
       "category": "Identity & Benefits",
-      "dataTypes": ["Identity Documents", "Enrollment Data", "Contact Information"],
+      "dataTypes": [
+        "Identity Documents",
+        "Enrollment Data",
+        "Contact Information"
+      ],
       "jurisdiction": "nyc",
       "pdfUrl": null,
       "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
@@ -73,11 +214,18 @@
     {
       "id": "dycd-hra-idnyc-2022",
       "title": "IDNYC Enrollment Site MOU",
-      "parties": ["DYCD", "HRA"],
+      "parties": [
+        "DYCD",
+        "HRA"
+      ],
       "date": "2022-04-19",
       "year": 2022,
       "category": "Identity & Benefits",
-      "dataTypes": ["Identity Documents", "Contact Information", "Enrollment Data"],
+      "dataTypes": [
+        "Identity Documents",
+        "Contact Information",
+        "Enrollment Data"
+      ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/dycd/downloads/pdf/mou/220419_DYCD_HRA_MOU_IDNYC_Enrollment.pdf",
       "sourceUrl": "https://www.nyc.gov/site/dycd/about/about-dycd/interagency-mous.page",
@@ -87,11 +235,18 @@
     {
       "id": "dohmh-hra-test-trace-2020",
       "title": "Test and Trace Robocalls Intra-City Agreement",
-      "parties": ["DOHMH", "HRA"],
+      "parties": [
+        "DOHMH",
+        "HRA"
+      ],
       "date": "2020-11-30",
       "year": 2020,
       "category": "Health Data",
-      "dataTypes": ["Contact Information", "Public Health Data", "Health Records"],
+      "dataTypes": [
+        "Contact Information",
+        "Public Health Data",
+        "Health Records"
+      ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/doh/downloads/pdf/about/mou-1-hra-2021.pdf",
       "sourceUrl": "https://www.nyc.gov/site/doh/about/about-doh/interagency-mous.page",
@@ -101,11 +256,18 @@
     {
       "id": "hra-omh-dopis-2018",
       "title": "DOPIS Data Sharing Agreement",
-      "parties": ["HRA", "OMH"],
+      "parties": [
+        "HRA",
+        "OMH"
+      ],
       "date": "2018-03-01",
       "year": 2018,
       "category": "Health Data",
-      "dataTypes": ["Mental Health Records", "Case Records", "Benefits Eligibility"],
+      "dataTypes": [
+        "Mental Health Records",
+        "Case Records",
+        "Benefits Eligibility"
+      ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/HRA%20_OMH_DOPIS_data_sharing.pdf",
       "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
@@ -115,11 +277,18 @@
     {
       "id": "hra-dohmh-healthstat-2020",
       "title": "HRA-DOHMH Health Statistics Cooperative Agreement FY20-22",
-      "parties": ["HRA", "DOHMH"],
+      "parties": [
+        "HRA",
+        "DOHMH"
+      ],
       "date": "2020-05-07",
       "year": 2020,
       "category": "Health Data",
-      "dataTypes": ["Health Records", "Public Health Data", "Benefits Eligibility"],
+      "dataTypes": [
+        "Health Records",
+        "Public Health Data",
+        "Benefits Eligibility"
+      ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/Health-Stat-MOU-FY20-22-5.7.2020-notarized.pdf",
       "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
@@ -129,11 +298,18 @@
     {
       "id": "dof-hra-coop-2019",
       "title": "Finance-HRA Cooperative Agreement",
-      "parties": ["DOF", "HRA"],
+      "parties": [
+        "DOF",
+        "HRA"
+      ],
       "date": "2019-06-01",
       "year": 2019,
       "category": "Financial/Benefits",
-      "dataTypes": ["Tax Records", "Financial Records", "Benefits Eligibility"],
+      "dataTypes": [
+        "Tax Records",
+        "Financial Records",
+        "Benefits Eligibility"
+      ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/finance/downloads/pdf/mou/coop_agreement_hra.pdf",
       "sourceUrl": "https://www.nyc.gov/site/finance/about/interagency-mou.page",
@@ -143,11 +319,17 @@
     {
       "id": "dof-dhs-hhs-exchange",
       "title": "Inter-Agency Data Exchange Agreement (HHS)",
-      "parties": ["DOF", "HRA"],
+      "parties": [
+        "DOF",
+        "HRA"
+      ],
       "date": "2017-01-01",
       "year": 2017,
       "category": "Financial/Benefits",
-      "dataTypes": ["Financial Records", "Benefits Eligibility"],
+      "dataTypes": [
+        "Financial Records",
+        "Benefits Eligibility"
+      ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/finance/downloads/pdf/mou/inter-agency_data_exchange_hhs.pdf",
       "sourceUrl": "https://www.nyc.gov/site/finance/about/interagency-mou.page",
@@ -157,11 +339,18 @@
     {
       "id": "oti-acs-mycity-2023",
       "title": "MyCity Childcare Portal Data Sharing Agreement",
-      "parties": ["OTI", "ACS"],
+      "parties": [
+        "OTI",
+        "ACS"
+      ],
       "date": "2023-04-01",
       "year": 2023,
       "category": "Youth & Families",
-      "dataTypes": ["Benefits Eligibility", "Identity Documents", "Program Participation"],
+      "dataTypes": [
+        "Benefits Eligibility",
+        "Identity Documents",
+        "Program Participation"
+      ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/oti/downloads/pdf/about/mycity-data-sharing-agreement.pdf",
       "sourceUrl": "https://www.nyc.gov/content/oti/pages/data-analytics/citywide-data-sharing",
@@ -169,368 +358,2215 @@
       "data_source": "confirmed"
     },
     {
-      "id": "acs-nypd-child-safety-2018",
-      "title": "Child Abuse and Neglect Investigation Data Sharing",
-      "parties": ["ACS", "NYPD"],
-      "date": "2018-07-01",
-      "year": 2018,
-      "category": "Youth & Families",
-      "dataTypes": ["Case Records", "Arrest Records", "Contact Information"],
+      "id": "hra-hra-cuny-unlocking-unemployment-interagency-agrmt",
+      "title": "HRA - CUNY - Unlocking Unemployment Interagency Agreement",
+      "parties": [
+        "CUNY",
+        "HRA",
+        "LAW"
+      ],
+      "date": "December 13, 2023",
+      "year": 2023,
+      "category": "Criminal Justice",
+      "dataTypes": [
+        "Student Records",
+        "Enrollment Data",
+        "Contact Information",
+        "Building Records",
+        "Employment Data",
+        "Infrastructure Data"
+      ],
       "jurisdiction": "nyc",
-      "pdfUrl": null,
-      "sourceUrl": "https://www.nyc.gov/site/acs/about/interagency-memoranda-of-understanding.page",
-      "description": "MOU governing joint ACS-NYPD Special Victims Division investigations of child abuse and neglect, defining data exchange protocols for case coordination.",
-      "data_source": "seeded"
-    },
-    {
-      "id": "acs-doe-schoolbased-2019",
-      "title": "School-Based Child Welfare Services Data Exchange",
-      "parties": ["ACS", "DOE"],
-      "date": "2019-09-01",
-      "year": 2019,
-      "category": "Youth & Families",
-      "dataTypes": ["Student Records", "Enrollment Data", "Case Records"],
-      "jurisdiction": "nyc",
-      "pdfUrl": null,
-      "sourceUrl": "https://www.nyc.gov/site/acs/about/interagency-memoranda-of-understanding.page",
-      "description": "Agreement enabling ACS caseworkers to access DOE enrollment and attendance records to locate and support children involved in child welfare cases.",
-      "data_source": "seeded"
-    },
-    {
-      "id": "acs-dohmh-foster-health-2017",
-      "title": "Health Services for Children in Foster Care",
-      "parties": ["ACS", "DOHMH"],
-      "date": "2017-10-01",
-      "year": 2017,
-      "category": "Health Data",
-      "dataTypes": ["Health Records", "Mental Health Records", "Case Records"],
-      "jurisdiction": "nyc",
-      "pdfUrl": null,
-      "sourceUrl": "https://www.nyc.gov/site/acs/about/interagency-memoranda-of-understanding.page",
-      "description": "Data sharing agreement to coordinate health and mental health services for children in ACS foster care, enabling DOHMH to track and manage health interventions.",
-      "data_source": "seeded"
-    },
-    {
-      "id": "dhs-hra-shelter-benefits-2018",
-      "title": "Shelter and Benefits Coordination MOU",
-      "parties": ["DHS", "HRA"],
-      "date": "2018-04-01",
-      "year": 2018,
-      "category": "Identity & Benefits",
-      "dataTypes": ["Housing Records", "Benefits Eligibility", "Contact Information"],
-      "jurisdiction": "nyc",
-      "pdfUrl": null,
+      "pdfUrl": "https://www1.nyc.gov/assets/hra/downloads/pdf/about/mous/2023/HRA-CUNY-Unlocking-Unemployment-Interagency-Agrmt.pdf",
       "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
-      "description": "MOU coordinating DHS shelter placement data with HRA benefits eligibility systems to streamline services for homeless individuals and families.",
-      "data_source": "seeded"
+      "description": "B. This Agreement may be renewed up to three (3) times for a period of one (1) year per",
+      "data_source": "scraped"
     },
     {
-      "id": "hpd-hra-housing-stability-2020",
-      "title": "Housing Stability Plus Program Data Sharing",
-      "parties": ["HPD", "HRA"],
-      "date": "2020-01-15",
-      "year": 2020,
-      "category": "Housing",
-      "dataTypes": ["Housing Records", "Benefits Eligibility", "Financial Records"],
+      "id": "hra-hra-cuny-hse-connect-renewal-interagency-agrmt",
+      "title": "HRA - CUNY - HSE Connect Renewal Interagency Agreement",
+      "parties": [
+        "CUNY",
+        "HRA"
+      ],
+      "date": "July 1, 2023",
+      "year": 2023,
+      "category": "Education",
+      "dataTypes": [],
       "jurisdiction": "nyc",
-      "pdfUrl": null,
-      "sourceUrl": "https://www.nyc.gov/site/hpd/about/interagency-mous.page",
-      "description": "Agreement for sharing rental subsidy and housing placement data between HPD and HRA/DSS under the Housing Stability Plus rental assistance program.",
-      "data_source": "seeded"
+      "pdfUrl": "https://www1.nyc.gov/assets/hra/downloads/pdf/about/mous/2023/HRA-CUNY-HSE-Connect-Renewal-Interagency-Agrmt.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
     },
     {
-      "id": "doe-dycd-afterschool-2019",
-      "title": "After School Programs Data Sharing",
-      "parties": ["DOE", "DYCD"],
-      "date": "2019-08-01",
+      "id": "hra-hra-parks-mou-ocss-snapshot",
+      "title": "HRA - NYC Parks - OCSS Snapshot",
+      "parties": [
+        "HRA",
+        "Parks"
+      ],
+      "date": "November 17, 2022",
+      "year": 2022,
+      "category": "Administrative",
+      "dataTypes": [
+        "Contact Information"
+      ],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www1.nyc.gov/assets/hra/downloads/pdf/about/mous/2022/HRA-Parks-MOU-OCSS-Snapshot.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-cooperative-agreement-dycd-hra-tanf-funding-for-syep-2021",
+      "title": "HRA - DYCD - Cooperative Agreement TANF Funding",
+      "parties": [
+        "DYCD",
+        "HRA",
+        "LAW"
+      ],
+      "date": "February 1, 2022",
+      "year": 2022,
+      "category": "Youth & Families",
+      "dataTypes": [
+        "Public Health Data",
+        "Benefits Eligibility",
+        "Financial Records",
+        "Enrollment Data",
+        "Contact Information",
+        "Building Records"
+      ],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www1.nyc.gov/assets/hra/downloads/pdf/about/mous/2022/Cooperative-Agreement-DYCD-HRA-TANF-Funding-for-SYEP-2021.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "including data contained in official HRA and DYCD files or records, shall be held",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-hra-20-mopt-erap-interagency-datashare-mou",
+      "title": "HRA - MOPT - ERAP DataShare agreement",
+      "parties": [
+        "HRA",
+        "MOPT"
+      ],
+      "date": "September 15, 2021",
+      "year": 2021,
+      "category": "Administrative",
+      "dataTypes": [
+        "Contact Information"
+      ],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2021/HRA%20_MOPT_ERAP-Interagency-Datashare_MOU.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-dss-doc-data-sharing-agreement-hart-island-burials",
+      "title": "DSS.DOC Data Share MOU July 1, 2021",
+      "parties": [
+        "DOC",
+        "HRA"
+      ],
+      "date": "July 1, 2021",
+      "year": 2021,
+      "category": "Criminal Justice",
+      "dataTypes": [
+        "Contact Information"
+      ],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2021/DSS-DOC-Data-Sharing-agreement-Hart-Island-burials.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-doc-parks-dss-hart-island-mou-fully-executed",
+      "title": "DSS - Parks - Corrections Hart Island MOU",
+      "parties": [
+        "DOC",
+        "HRA",
+        "Parks"
+      ],
+      "date": "June 29, 2021",
+      "year": 2021,
+      "category": "Criminal Justice",
+      "dataTypes": [
+        "Contact Information"
+      ],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/benefits/DOC-Parks-DSS-Hart-Island-MOU-Fully-Executed.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-hra-costco-idnyc-benefit-partner-mou",
+      "title": "HRA - COSTCO - IDNYC Benefit Partner MOU. June 7, 2021",
+      "parties": [
+        "HRA"
+      ],
+      "date": "June 7, 2021",
+      "year": 2021,
+      "category": "Identity & Benefits",
+      "dataTypes": [
+        "Contact Information"
+      ],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2021/HRA-Costco-IDNYC-Benefit-Partner-MOU.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-acs-hra-cash-assistance-data-share-mou-renewal",
+      "title": "ACS - HRA Cash Assistance Data Share MOU Renewal. June 7, 2021",
+      "parties": [
+        "ACS",
+        "DOB",
+        "HRA"
+      ],
+      "date": "June 7, 2021",
+      "year": 2021,
+      "category": "Youth & Families",
+      "dataTypes": [
+        "Benefits Eligibility",
+        "Contact Information",
+        "Building Records",
+        "Infrastructure Data"
+      ],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2021/ACS-HRA-Cash-Assistance-Data-Share-MOU-Renewal.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "Agreement\u201d), dated this ____________________, 2021 between the City of New York (\u201cCity\u201d)",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-hra-moia-cuny-action-nyc-5th-amendment",
+      "title": "HRA - CUNY MOIA Action NYC Modification Agreement. May 27, 2021",
+      "parties": [
+        "CUNY",
+        "HRA"
+      ],
+      "date": "May 27, 2021",
+      "year": 2021,
+      "category": "Financial/Benefits",
+      "dataTypes": [
+        "Financial Records",
+        "Infrastructure Data"
+      ],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www1.nyc.gov/assets/hra/downloads/pdf/HRA_MOIA_CUNY_ACTION_NYC_5th_Amendment.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "the Parties entered into the Agreement on October 4, 2019, to administer the Action",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-hra-brook-homes-mgt-llc-csro-mou-emergency-housing",
+      "title": "HRA - Brook Homes Mgt, LLC. - Emergency Housing SROs. January 6, 2021",
+      "parties": [
+        "DOHMH",
+        "HPD",
+        "HRA",
+        "LAW"
+      ],
+      "date": "January 6, 2021",
+      "year": 2021,
+      "category": "Health Data",
+      "dataTypes": [
+        "Mental Health Records",
+        "Financial Records",
+        "Case Records",
+        "Student Records",
+        "Identity Documents",
+        "Contact Information"
+      ],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/HRA_Brook-Homes-Mgt-LLC-CSRO-MOU-Emergency-Housing.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "one (1) year from December 1, 2022 through November 30, 2023. HRA, in its sole",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-hra-20cuny-edge-modification-agreement",
+      "title": "HRA - CUNY - EDGE Modification Coop Agreement. February 11, 2020",
+      "parties": [
+        "CUNY",
+        "HRA"
+      ],
+      "date": "February 11, 2020",
+      "year": 2020,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/HRA_%20CUNY-EDGE-Modification-agreement.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-hra-20-20dof-darb-data-share-mou-and-baa",
+      "title": "HRA - DOF - DARB Data Share MOU & BAA. January 28, 2020",
+      "parties": [
+        "DOF",
+        "HRA"
+      ],
+      "date": "January 28, 2020",
+      "year": 2020,
+      "category": "Financial/Benefits",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/HRA%20_%20DOF-DARB-Data-Share-MOU-and-BAA.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-hra-cuny-dohmh-data-sharing-hasa-pilot-program",
+      "title": "HRA - CUNY - DOHMH Data Sharing HASA Pilot Program. December 18, 2019",
+      "parties": [
+        "CUNY",
+        "DOHMH",
+        "HRA"
+      ],
+      "date": "December 18, 2019",
+      "year": 2019,
+      "category": "Health Data",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/HRA-CUNY-DOHMH-Data-Sharing-HASA-pilot-program.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-hra-doe-middle-school-idnyc-cards",
+      "title": "HRA - DOE - IDNYC Middle School Cards. November 20, 2019",
+      "parties": [
+        "DOE",
+        "HRA"
+      ],
+      "date": "November 20, 2019",
       "year": 2019,
       "category": "Education",
-      "dataTypes": ["Student Records", "Enrollment Data", "Program Participation"],
+      "dataTypes": [],
       "jurisdiction": "nyc",
-      "pdfUrl": null,
-      "sourceUrl": "https://www.nyc.gov/site/dycd/about/about-dycd/interagency-mous.page",
-      "description": "Data sharing between DOE and DYCD covering student enrollment, attendance, and academic progress data for participants in DYCD-funded after school programs.",
-      "data_source": "seeded"
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/HRA-DOE-Middle-School-IDNYC-cards.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
     },
     {
-      "id": "dfta-dohmh-eldercare-2018",
-      "title": "Elder Care Services Data Exchange",
-      "parties": ["DFTA", "DOHMH"],
-      "date": "2018-06-01",
+      "id": "hra-hra-cuny-fair-fares-data-transfer-agreement-amendment",
+      "title": "HRA - CUNY - Fair Fares Data Transfer Amendment. November 18, 2019",
+      "parties": [
+        "CUNY",
+        "HRA"
+      ],
+      "date": "November 18, 2019",
+      "year": 2019,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www1.nyc.gov/assets/hra/downloads/pdf/HRA-CUNY-fair-fares-data-transfer-agreement-amendment.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-hra-20brooklyn-events-center-brooklyn-nets-llc-third-renewal-agreement",
+      "title": "HRA - Brooklyn Events Center LLC - IDNYC Barclays discounts. October 18, 2019",
+      "parties": [
+        "HRA"
+      ],
+      "date": "October 18, 2019",
+      "year": 2019,
+      "category": "Identity & Benefits",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/HRA_%20Brooklyn_Events_Center_Brooklyn_Nets_LLC_third_renewal_agreement.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-hra-dvs-inter-agency-collaboration-and-data-exchange-agreement",
+      "title": "HRA - DVS Inter-Agency Collaboration and Data Exchange Agreement. July 25, 2019",
+      "parties": [
+        "HRA"
+      ],
+      "date": "July 25, 2019",
+      "year": 2019,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/hra-dvs-inter-agency-collaboration-and-data-exchange-agreement.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-hra-department-of-parks-and-recreation-coop-agreement-re-parks-opportunity-program",
+      "title": "HRA - DPR Parks Opportunity Program. September 27, 2019",
+      "parties": [
+        "HRA",
+        "Parks"
+      ],
+      "date": "September 27, 2019",
+      "year": 2019,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/hra_department_of_parks_and_recreation_coop_agreement_re_parks_opportunity_program.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-hra-kings-county-da-cooperative-agreement-modification-re-fraud-prosecution",
+      "title": "HRA - Kings County DA's Office Fraud Prosecution. September 24, 2019",
+      "parties": [
+        "HRA"
+      ],
+      "date": "September 24, 2019",
+      "year": 2019,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/HRA-Kings-County-DA-Cooperative-agreement-modification-re-fraud-prosecution.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-hra-dhs-data-sharing-mou-eam-lead-work-orders",
+      "title": "HRA - DHS Data Sharing MOU - EAM Lead Work Orders. September 13, 2019",
+      "parties": [
+        "DHS",
+        "HRA"
+      ],
+      "date": "September 13, 2019",
+      "year": 2019,
+      "category": "Housing",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/hra-dhs-data-sharing-mou-eam-lead-work-orders.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-nysdoh-ohip-data-use-agreement-finance-17-088c-addendum-2019-09-13",
+      "title": "NYSDOH OHIP DUA Finance 17-088C addendum. September 13, 2019",
+      "parties": [
+        "DOF",
+        "HRA"
+      ],
+      "date": "September 13, 2019",
+      "year": 2019,
+      "category": "Financial/Benefits",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-finance-17-088c-addendum-2019-09-13.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-nysdoh-ohip-data-use-agreement-finance-17-088d-addendum-2019-09-13",
+      "title": "NYSDOH OHIP DUA Finance 17-088D addendum. September 13, 2019",
+      "parties": [
+        "DOF",
+        "HRA"
+      ],
+      "date": "September 13, 2019",
+      "year": 2019,
+      "category": "Financial/Benefits",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-finance-17-088d-addendum-2019-09-13.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-hra-otda-data-sharing-re-sfars-program",
+      "title": "HRA - DOHMH HealthStat Cooperative agreement. July 1, 2019",
+      "parties": [
+        "DOHMH",
+        "HRA"
+      ],
+      "date": "July 1, 2019",
+      "year": 2019,
+      "category": "Health Data",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www1.nyc.gov/assets/hra/downloads/pdf/HRA-OTDA-data-sharing-re-SFARS-program.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-health-stat-mou-fy20-22-5-7-2020-notarized",
+      "title": "HRA OTDA - SFARS Data Sharing. July 26, 2019",
+      "parties": [
+        "DOHMH",
+        "HRA",
+        "LAW"
+      ],
+      "date": "July 26, 2019",
+      "year": 2019,
+      "category": "Health Data",
+      "dataTypes": [
+        "Public Health Data",
+        "Benefits Eligibility",
+        "Enrollment Data",
+        "Identity Documents",
+        "Contact Information",
+        "Building Records"
+      ],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www1.nyc.gov/assets/hra/downloads/pdf/Health-Stat-MOU-FY20-22-5.7.2020-notarized.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "HRA desires to provide funding for providing application assistance, overseeing",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-hra-health-hospitals-endgbv-renewal-agreement",
+      "title": "NYC Health + Hospitals and Mayor's Office to End Domestic and Gender Based Violence MOU",
+      "parties": [
+        "HHC",
+        "HRA"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Health Data",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/hra-health-hospitals-endgbv-renewal-agreement.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-dss-acs-doe-20early-20learn-20transfer-20mou",
+      "title": "DOE Early Learn transfer MOU",
+      "parties": [
+        "DOE",
+        "HRA"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Education",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/DSS_ACS_DOE%20Early%20Learn%20transfer%20MOU.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-nysdoh-ohip-data-use-agreement-micsa-17-088l",
+      "title": "NYSDOH OHIP Data Use agreement MICSA 17-088L. October 24, 2018",
+      "parties": [
+        "HRA"
+      ],
+      "date": "October 24, 2018",
+      "year": 2018,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-micsa-17-088l.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-nysdoh-ohip-data-use-agreement-opa-17-088q",
+      "title": "NYSDOH OHIP Data Use agreement OPA 17-088Q. September 7 , 2018",
+      "parties": [
+        "HRA"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-opa-17-088q.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-nysdoh-ohip-data-use-agreement-opa-17-088r",
+      "title": "NYSDOH OHIP Data Use agreement OPA 17-088R. September 7 , 2018",
+      "parties": [
+        "HRA"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-opa-17-088r.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-hra-20-20dohmh-20vps-20moa",
+      "title": "HRA \u2013 DOHMH Visiting psychiatric services in shelters. August 7, 2018",
+      "parties": [
+        "DOHMH",
+        "HRA"
+      ],
+      "date": "August 7, 2018",
       "year": 2018,
       "category": "Health Data",
-      "dataTypes": ["Health Records", "Program Participation", "Contact Information"],
+      "dataTypes": [],
       "jurisdiction": "nyc",
-      "pdfUrl": null,
-      "sourceUrl": "https://www.nyc.gov/site/dfta/about/interagency-mous.page",
-      "description": "Agreement enabling DFTA and DOHMH to share health and social service records for elderly New Yorkers to coordinate care and prevent duplicate service delivery.",
-      "data_source": "seeded"
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2018/HRA%20_%20DOHMH%20VPS%20MOA.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
     },
     {
-      "id": "dot-nypd-traffic-2019",
-      "title": "Traffic Safety Data Exchange",
-      "parties": ["DOT", "NYPD"],
-      "date": "2019-03-01",
-      "year": 2019,
-      "category": "Transportation",
-      "dataTypes": ["Crash Data", "Traffic Data", "Enforcement Records"],
+      "id": "hra-hra-20-dycd-20-syep",
+      "title": "HRA \u2013 DYCD Summer Youth Employment Program. August 3, 2018",
+      "parties": [
+        "DYCD",
+        "HRA"
+      ],
+      "date": "August 3, 2018",
+      "year": 2018,
+      "category": "Youth & Families",
+      "dataTypes": [],
       "jurisdiction": "nyc",
-      "pdfUrl": null,
-      "sourceUrl": "https://www.nyc.gov/html/dot/html/about/mou_dot.shtml",
-      "description": "MOU governing exchange of crash, summons, and enforcement data between DOT and NYPD to support Vision Zero traffic safety analysis and targeted enforcement.",
-      "data_source": "seeded"
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2018/HRA%20_DYCD%20_SYEP.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
     },
     {
-      "id": "dob-dof-property-2018",
-      "title": "Property Records and Violations Data Exchange",
-      "parties": ["DOB", "DOF"],
-      "date": "2018-10-01",
+      "id": "hra-hra-dhs-20shelter-20space",
+      "title": "HRA \u2013 DHS Shelter space. August 1, 2018",
+      "parties": [
+        "DHS",
+        "HRA"
+      ],
+      "date": "August 1, 2018",
+      "year": 2018,
+      "category": "Housing",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2018/HRA_DHS%20Shelter%20space.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-nysdoh-ohip-data-use-agreement-irea-17-088o",
+      "title": "NYSDOH OHIP Data Use agreement IREA 17-088O. August 29, 2018",
+      "parties": [
+        "HRA"
+      ],
+      "date": "August 29, 2018",
+      "year": 2018,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-irea-17-088o.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-nysdoh-ohip-data-use-agreement-irea-17-088p",
+      "title": "NYSDOH OHIP Data Use agreement IREA 17-088P. August 29, 2018",
+      "parties": [
+        "HRA"
+      ],
+      "date": "August 29, 2018",
+      "year": 2018,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-irea-17-088p.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-hra-cuny-mocdv-20mou",
+      "title": "HRA \u2013 CUNY \u2013 OCDV Domestic violence symposium. July 31, 2018",
+      "parties": [
+        "CUNY",
+        "HRA"
+      ],
+      "date": "July 31, 2018",
+      "year": 2018,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2018/HRA_CUNY_MOCDV%20MOU.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-dhs-20correctional-20health-20services-20mou",
+      "title": "HRA \u2013 CHS Shelter services for inmates. July 31, 2018",
+      "parties": [
+        "HRA"
+      ],
+      "date": "July 31, 2018",
+      "year": 2018,
+      "category": "Housing",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2018/DHS_%20Correctional%20Health%20Services%20MOU.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-nysdoh-ohip-data-use-agreement-cas-17-088a-addendum",
+      "title": "NYSDOH OHIP DUA CAS 17-088A addendum. July 23, 2018",
+      "parties": [
+        "HRA"
+      ],
+      "date": "July 23, 2018",
+      "year": 2018,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2018/NYSDOH-OHIP-Data-Use-agreement-CAS-17-088A-addendum.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-nysdoh-ohip-data-use-agreement-cas-17-088a",
+      "title": "NYSDOH OHIP Data Use agreement CAS 17-088A. July 20, 2018",
+      "parties": [
+        "HRA"
+      ],
+      "date": "July 20, 2018",
+      "year": 2018,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2018/NYSDOH-OHIP-Data-Use-agreement-CAS-17-088A.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-hra-nycha-hrarentalarrearspaymentassistance-e-service",
+      "title": "HRA \u2013 NYCHA Rental Arrears payment assistance e-Service",
+      "parties": [
+        "HRA"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2018/HRA_NYCHA_HRARentalArrearsPaymentAssistance_e-Service.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-hra-20-cuny-moia-agreement",
+      "title": "HRA \u2013 CUNY- MOIA Free immigration legal services for NYers",
+      "parties": [
+        "CUNY",
+        "HRA"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2018/HRA%20_CUNY_MOIA_agreement.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-nysdoh-ohip-data-use-agreement-finance-17-088c-addendum",
+      "title": "NYSDOH OHIP DUA Finance 17-088C addendum. July 10, 2018",
+      "parties": [
+        "DOF",
+        "HRA"
+      ],
+      "date": "July 10, 2018",
       "year": 2018,
       "category": "Financial/Benefits",
-      "dataTypes": ["Building Records", "Financial Records", "Tax Records"],
+      "dataTypes": [],
       "jurisdiction": "nyc",
-      "pdfUrl": null,
-      "sourceUrl": "https://www.nyc.gov/site/buildings/dob/interagency-mous.page",
-      "description": "Data exchange enabling DOB to share building permit and violation records with DOF to support property tax assessment and lien issuance.",
-      "data_source": "seeded"
-    },
-    {
-      "id": "doc-mocj-reentry-2020",
-      "title": "Reentry Services Data Sharing",
-      "parties": ["DOC", "MOCJ"],
-      "date": "2020-06-01",
-      "year": 2020,
-      "category": "Criminal Justice",
-      "dataTypes": ["Detention Records", "Case Records", "Benefits Eligibility"],
-      "jurisdiction": "nyc",
-      "pdfUrl": null,
-      "sourceUrl": null,
-      "description": "Agreement enabling pre-release data sharing between DOC and MOCJ to coordinate reentry services, housing, and benefits enrollment for individuals leaving City jails.",
-      "data_source": "seeded"
-    },
-    {
-      "id": "nypd-doc-pretrial-2019",
-      "title": "Pre-Trial Detention Data Exchange",
-      "parties": ["NYPD", "DOC"],
-      "date": "2019-05-01",
-      "year": 2019,
-      "category": "Criminal Justice",
-      "dataTypes": ["Arrest Records", "Detention Records", "Court Records"],
-      "jurisdiction": "nyc",
-      "pdfUrl": null,
-      "sourceUrl": null,
-      "description": "MOU governing the exchange of arrest, booking, and detention records between NYPD and DOC to streamline intake processes and track individuals through the justice system.",
-      "data_source": "seeded"
-    },
-    {
-      "id": "nypd-mocj-cjreform-2018",
-      "title": "Criminal Justice Reform Initiative Data Sharing",
-      "parties": ["NYPD", "MOCJ", "DOC"],
-      "date": "2018-01-01",
-      "year": 2018,
-      "category": "Criminal Justice",
-      "dataTypes": ["Arrest Records", "Court Records", "Enforcement Records"],
-      "jurisdiction": "nyc",
-      "pdfUrl": null,
-      "sourceUrl": null,
-      "description": "Three-party agreement supporting the Mayor's Criminal Justice Reform Initiative, enabling cross-agency data analysis on summons, arraignments, and case outcomes.",
-      "data_source": "seeded"
-    },
-    {
-      "id": "dohmh-hpd-lead-2019",
-      "title": "Lead Paint and Housing Health Data Exchange",
-      "parties": ["DOHMH", "HPD"],
-      "date": "2019-02-01",
-      "year": 2019,
-      "category": "Health Data",
-      "dataTypes": ["Health Records", "Public Health Data", "Building Records"],
-      "jurisdiction": "nyc",
-      "pdfUrl": null,
-      "sourceUrl": "https://www.nyc.gov/site/hpd/about/interagency-mous.page",
-      "description": "Agreement sharing DOHMH childhood lead poisoning case data with HPD to target remediation inspections and enforcement actions in properties with affected children.",
-      "data_source": "seeded"
-    },
-    {
-      "id": "doe-dohmh-school-health-2018",
-      "title": "School Health Services Data Exchange",
-      "parties": ["DOE", "DOHMH"],
-      "date": "2018-09-01",
-      "year": 2018,
-      "category": "Health Data",
-      "dataTypes": ["Student Records", "Health Records", "Public Health Data"],
-      "jurisdiction": "nyc",
-      "pdfUrl": null,
-      "sourceUrl": "https://www.nyc.gov/site/doh/about/about-doh/interagency-mous.page",
-      "description": "MOU governing exchange of student health records between DOE and DOHMH for school-based health services, immunization tracking, and public health monitoring.",
-      "data_source": "seeded"
-    },
-    {
-      "id": "dfta-hra-snap-seniors-2021",
-      "title": "SNAP for Seniors Benefits Coordination",
-      "parties": ["DFTA", "HRA"],
-      "date": "2021-03-01",
-      "year": 2021,
-      "category": "Identity & Benefits",
-      "dataTypes": ["Benefits Eligibility", "Enrollment Data", "Contact Information"],
-      "jurisdiction": "nyc",
-      "pdfUrl": null,
-      "sourceUrl": "https://www.nyc.gov/site/dfta/about/interagency-mous.page",
-      "description": "Data sharing agreement to coordinate DFTA senior center enrollment data with HRA SNAP (food stamps) eligibility systems to increase enrollment among eligible seniors.",
-      "data_source": "seeded"
-    },
-    {
-      "id": "dycd-acs-homeless-youth-2020",
-      "title": "Runaway and Homeless Youth Data Coordination",
-      "parties": ["DYCD", "ACS"],
-      "date": "2020-08-01",
-      "year": 2020,
-      "category": "Youth & Families",
-      "dataTypes": ["Case Records", "Contact Information", "Program Participation"],
-      "jurisdiction": "nyc",
-      "pdfUrl": null,
-      "sourceUrl": "https://www.nyc.gov/site/dycd/about/about-dycd/interagency-mous.page",
-      "description": "MOU enabling DYCD runaway and homeless youth shelters to share intake and service data with ACS to identify children who may need child protective services.",
-      "data_source": "seeded"
-    },
-    {
-      "id": "hpd-dob-building-code-2021",
-      "title": "Building Code Compliance Data Exchange",
-      "parties": ["HPD", "DOB"],
-      "date": "2021-01-01",
-      "year": 2021,
-      "category": "Housing",
-      "dataTypes": ["Building Records", "Housing Records", "Enforcement Records"],
-      "jurisdiction": "nyc",
-      "pdfUrl": null,
-      "sourceUrl": "https://www.nyc.gov/site/hpd/about/interagency-mous.page",
-      "description": "Agreement for sharing HPD housing maintenance code violations and DOB building permits to enable coordinated enforcement against negligent landlords.",
-      "data_source": "seeded"
-    },
-    {
-      "id": "dep-dot-infrastructure-2019",
-      "title": "Street Infrastructure Coordination MOU",
-      "parties": ["DEP", "DOT"],
-      "date": "2019-04-01",
-      "year": 2019,
-      "category": "Transportation",
-      "dataTypes": ["Infrastructure Data", "Project Data"],
-      "jurisdiction": "nyc",
-      "pdfUrl": null,
-      "sourceUrl": "https://www.nyc.gov/html/dot/html/about/mou_dot.shtml",
-      "description": "MOU coordinating DEP utility work schedules with DOT street resurfacing plans, sharing project data to minimize street cuts and reduce disruption.",
-      "data_source": "seeded"
-    },
-    {
-      "id": "law-nypd-litigation-2018",
-      "title": "Civil Litigation Data Sharing",
-      "parties": ["LAW", "NYPD"],
-      "date": "2018-05-01",
-      "year": 2018,
-      "category": "Administrative",
-      "dataTypes": ["Arrest Records", "Personnel Records", "Case Records"],
-      "jurisdiction": "nyc",
-      "pdfUrl": null,
-      "sourceUrl": "https://www.nyc.gov/site/law/about/interagency-mous.page",
-      "description": "Agreement governing the Law Department's access to NYPD records for civil litigation defense, including arrest reports, body camera footage metadata, and personnel files.",
-      "data_source": "seeded"
-    },
-    {
-      "id": "sbs-dcas-workforce-2020",
-      "title": "Workforce Development Data Sharing",
-      "parties": ["SBS", "DCAS"],
-      "date": "2020-02-01",
-      "year": 2020,
-      "category": "Administrative",
-      "dataTypes": ["Employment Data", "Enrollment Data", "Program Participation"],
-      "jurisdiction": "nyc",
-      "pdfUrl": null,
-      "sourceUrl": "https://www.nyc.gov/site/sbs/about/interagency-mous.page",
-      "description": "Data sharing between SBS workforce1 career centers and DCAS to track City hiring outcomes and match job seekers with municipal employment opportunities.",
-      "data_source": "seeded"
-    },
-    {
-      "id": "omb-dcas-capital-2019",
-      "title": "Capital Projects Financial Data Exchange",
-      "parties": ["OMB", "DCAS"],
-      "date": "2019-07-01",
-      "year": 2019,
-      "category": "Administrative",
-      "dataTypes": ["Financial Records", "Project Data", "Infrastructure Data"],
-      "jurisdiction": "nyc",
-      "pdfUrl": null,
-      "sourceUrl": "https://www.nyc.gov/site/omb/about/interagency-mous.page",
-      "description": "Agreement enabling OMB to access DCAS capital project schedules and expenditure data for citywide capital budget monitoring and reporting.",
-      "data_source": "seeded"
-    },
-    {
-      "id": "dohmh-acs-child-welfare-health-2021",
-      "title": "Child Welfare Health Coordination",
-      "parties": ["DOHMH", "ACS"],
-      "date": "2021-06-01",
-      "year": 2021,
-      "category": "Youth & Families",
-      "dataTypes": ["Health Records", "Mental Health Records", "Case Records"],
-      "jurisdiction": "nyc",
-      "pdfUrl": null,
-      "sourceUrl": "https://www.nyc.gov/site/acs/about/interagency-memoranda-of-understanding.page",
-      "description": "Agreement for DOHMH to provide health and behavioral health services data to ACS for children in foster care and preventive services programs.",
-      "data_source": "seeded"
-    },
-    {
-      "id": "dop-mocj-reentry-2020",
-      "title": "Probation Reentry Data Coordination",
-      "parties": ["DOP", "MOCJ"],
-      "date": "2020-09-01",
-      "year": 2020,
-      "category": "Criminal Justice",
-      "dataTypes": ["Supervision Records", "Case Records", "Benefits Eligibility"],
-      "jurisdiction": "nyc",
-      "pdfUrl": null,
-      "sourceUrl": "https://www.nyc.gov/site/probation/about/interagency-mous.page",
-      "description": "Agreement enabling DOP to share probation supervision data with MOCJ for criminal justice reform analysis and targeted intervention program design.",
-      "data_source": "seeded"
-    },
-    {
-      "id": "hra-ocme-benefits-2019",
-      "title": "Death Records and Benefits Coordination",
-      "parties": ["HRA", "OCME"],
-      "date": "2019-10-01",
-      "year": 2019,
-      "category": "Administrative",
-      "dataTypes": ["Death Records", "Benefits Eligibility", "Financial Records"],
-      "jurisdiction": "nyc",
-      "pdfUrl": null,
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-finance-17-088c-addendum.pdf",
       "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
-      "description": "Agreement enabling HRA to receive death certificate data from OCME to promptly terminate benefits and prevent improper payments for deceased individuals.",
-      "data_source": "seeded"
+      "description": "",
+      "data_source": "scraped"
     },
     {
-      "id": "oti-multiple-citywide-2023",
-      "title": "Citywide Data Integration Initiative Framework",
-      "parties": ["OTI", "HRA", "ACS", "DOE"],
-      "date": "2023-01-01",
-      "year": 2023,
+      "id": "hra-nysdoh-ohip-data-use-agreement-finance-17-088d-addendum",
+      "title": "NYSDOH OHIP DUA Finance 17-088D addendum. July 10, 2018",
+      "parties": [
+        "DOF",
+        "HRA"
+      ],
+      "date": "July 10, 2018",
+      "year": 2018,
+      "category": "Financial/Benefits",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-finance-17-088d-addendum.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-nysdoh-ohip-data-use-agreement-oppm-17-088e-addendum",
+      "title": "NYSDOH OHIP DUA OPPM 17-088E addendum. July 10, 2018",
+      "parties": [
+        "HRA"
+      ],
+      "date": "July 10, 2018",
+      "year": 2018,
       "category": "Administrative",
-      "dataTypes": ["Benefits Eligibility", "Case Records", "Identity Documents", "Program Participation"],
+      "dataTypes": [],
       "jurisdiction": "nyc",
-      "pdfUrl": null,
-      "sourceUrl": "https://www.nyc.gov/content/oti/pages/data-analytics/citywide-data-sharing",
-      "description": "Umbrella framework agreement establishing OTI as the technical operator for multi-agency data integration projects, covering data governance, security, and API access standards.",
-      "data_source": "seeded"
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-oppm-17-088e-addendum.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
     },
     {
-      "id": "dsny-dot-sweeping-2020",
-      "title": "Street Sweeping Route Coordination",
-      "parties": ["DSNY", "DOT"],
-      "date": "2020-03-01",
-      "year": 2020,
-      "category": "Transportation",
-      "dataTypes": ["Infrastructure Data", "Traffic Data"],
+      "id": "hra-nysdoh-ohip-data-use-agreement-oppm-17-088f-addendum",
+      "title": "NYSDOH OHIP DUA OPPM 17-088F addendum. July 10, 2018",
+      "parties": [
+        "HRA"
+      ],
+      "date": "July 10, 2018",
+      "year": 2018,
+      "category": "Administrative",
+      "dataTypes": [],
       "jurisdiction": "nyc",
-      "pdfUrl": null,
-      "sourceUrl": "https://www.nyc.gov/html/dot/html/about/mou_dot.shtml",
-      "description": "MOU for sharing DSNY street sweeping schedule and route data with DOT to coordinate parking sign enforcement and reduce alternate side parking confusion.",
-      "data_source": "seeded"
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-oppm-17-088f-addendum.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-nysdoh-ohip-data-use-agreement-oer-17-088g-addendum",
+      "title": "NYSDOH OHIP DUA OER 17-088G addendum. July 10, 2018",
+      "parties": [
+        "HRA"
+      ],
+      "date": "July 10, 2018",
+      "year": 2018,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-oer-17-088g-addendum.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-nysdoh-ohip-data-use-agreement-oer-17-088h-addendum",
+      "title": "NYSDOH OHIP DUA OER 17-088H addendum. July 10, 2018",
+      "parties": [
+        "HRA"
+      ],
+      "date": "July 10, 2018",
+      "year": 2018,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-oer-17-088h-addendum.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-nysdoh-ohip-data-use-agreement-hcsp-17-088k",
+      "title": "NYSDOH OHIP Data Use agreement HCSP 17-088K. July 20, 2018",
+      "parties": [
+        "HRA"
+      ],
+      "date": "July 20, 2018",
+      "year": 2018,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-hcsp-17-088k.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-nysdoh-ohip-data-use-agreement-ola-17-088m",
+      "title": "NYSDOH OHIP Data Use agreement OLA 17-088M. July 20, 2018",
+      "parties": [
+        "HRA"
+      ],
+      "date": "July 20, 2018",
+      "year": 2018,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-ola-17-088m.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-nysdoh-ohip-data-use-agreement-ola-17-088n",
+      "title": "NYSDOH OHIP Data Use agreement OLA 17-088N. July 20, 2018",
+      "parties": [
+        "HRA"
+      ],
+      "date": "July 20, 2018",
+      "year": 2018,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-ola-17-088n.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-nysdoh-ohip-data-use-agreement-mis-17-088i",
+      "title": "NYSDOH OHIP Data Use agreement MIS 17-088I. July 23, 2018",
+      "parties": [
+        "HRA"
+      ],
+      "date": "July 23, 2018",
+      "year": 2018,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-mis-17-088i.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-nysdoh-ohip-data-use-agreement-mis-17-088j",
+      "title": "NYSDOH OHIP Data Use agreement MIS 17-088J. July 23, 2018",
+      "parties": [
+        "HRA"
+      ],
+      "date": "July 23, 2018",
+      "year": 2018,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-mis-17-088j.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-nysdoh-ohip-data-use-agreement-cas-17-088b-addendum",
+      "title": "NYSDOH OHIP DUA CAS 17-088B addendum. July 10, 2018",
+      "parties": [
+        "HRA"
+      ],
+      "date": "July 10, 2018",
+      "year": 2018,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-cas-17-088b-addendum.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-hra-nycha-hra-rental-payment-assistance",
+      "title": "HRA - NYCHA HRA Rental Payment Assistance",
+      "parties": [
+        "HRA"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2018/HRA-NYCHA-HRA-Rental-Payment-Assistance.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-dohmh-dfta-facilitated-enrollment",
+      "title": "DOHMH-DFTA Facilitated Enrollment MOU",
+      "parties": [
+        "DFTA",
+        "DOHMH",
+        "HRA"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Health Data",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2018/DOHMH-DFTA-Facilitated-Enrollment.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-nysdoh-ohip-data-use-agreement-finance-17-088c",
+      "title": "NYSDOH OHIP Data Use agreement Finance 17-088C. May 10, 2018",
+      "parties": [
+        "DOF",
+        "HRA"
+      ],
+      "date": "May 10, 2018",
+      "year": 2018,
+      "category": "Financial/Benefits",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-finance-17-088c.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-nysdoh-ohip-data-use-agreement-finance-17-088d",
+      "title": "NYSDOH OHIP Data Use agreement Finance 17-088D. May 10, 2018",
+      "parties": [
+        "DOF",
+        "HRA"
+      ],
+      "date": "May 10, 2018",
+      "year": 2018,
+      "category": "Financial/Benefits",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-finance-17-088d.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-nysdoh-ohip-data-use-agreement-oppm-17-088e",
+      "title": "NYSDOH OHIP Data Use agreement OPPM 17-088E. May 10, 2018",
+      "parties": [
+        "HRA"
+      ],
+      "date": "May 10, 2018",
+      "year": 2018,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-oppm-17-088e.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-nysdoh-ohip-data-use-agreement-oppm-17-088f",
+      "title": "NYSDOH OHIP Data Use agreement OPPM 17-088F. May 10, 2018",
+      "parties": [
+        "HRA"
+      ],
+      "date": "May 10, 2018",
+      "year": 2018,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-oppm-17-088f.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-nysdoh-ohip-data-use-agreement-oer-17-088g",
+      "title": "NYSDOH OHIP Data Use agreement OER 17-088G. May 10, 2018",
+      "parties": [
+        "HRA"
+      ],
+      "date": "May 10, 2018",
+      "year": 2018,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-oer-17-088g.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-nysdoh-ohip-data-use-agreement-oer-17-088h",
+      "title": "NYSDOH OHIP Data Use agreement OER 17-088H. May 10, 2018",
+      "parties": [
+        "HRA"
+      ],
+      "date": "May 10, 2018",
+      "year": 2018,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-oer-17-088h.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-nysdoh-ohip-data-use-agreement-cas-17-088b",
+      "title": "NYSDOH OHIP Data Use agreement CAS 17-088B. March 14, 2018",
+      "parties": [
+        "HRA"
+      ],
+      "date": "March 14, 2018",
+      "year": 2018,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-cas-17-088b.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-dhs-20idnyc-20cares-20mou",
+      "title": "DHS-IDNYC-CARES. IDNYC access to DHS client info. Jan. 23, 2018",
+      "parties": [
+        "DHS",
+        "HRA"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Housing",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2018/DHS%20IDNYC%20CARES%20MOU.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-nyc-20health-20and-20hospitals-20corp-20metropolitan-20hosp-20idnyc",
+      "title": "HRA-HHC. IDNYC participation at Metropolitan Hospital. October 20, 2017",
+      "parties": [
+        "HHC",
+        "HRA"
+      ],
+      "date": "October 20, 2017",
+      "year": 2017,
+      "category": "Health Data",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2017/oct/NYC%20Health%20and%20Hospitals%20Corp%20Metropolitan%20Hosp%20IDNYC.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-hra-20-20richmond-20county-20das-20office-20-20otda-20coop-20agreement",
+      "title": "HRA-Richmond County DA. Referrals for Welfare Fraud. September 19, 2017",
+      "parties": [
+        "HRA"
+      ],
+      "date": "September 19, 2017",
+      "year": 2017,
+      "category": "Identity & Benefits",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2017/sept/HRA%20_%20Richmond%20County%20DAs%20Office%20_%20OTDA%20Coop%20Agreement.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-hra-20hhc-20chat-20mou",
+      "title": "HRA-HHC. Comprehensive Health Assessment Team. September 5, 2017",
+      "parties": [
+        "HHC",
+        "HRA"
+      ],
+      "date": "September 5, 2017",
+      "year": 2017,
+      "category": "Health Data",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2017/sept/HRA%20HHC%20CHAT%20MOU.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-cuny-20it-20fellowship-20coop-20agreement",
+      "title": "HRA -CUNY Information Technology Fellowship agreement. July 1, 2017",
+      "parties": [
+        "CUNY",
+        "HRA"
+      ],
+      "date": "July 1, 2017",
+      "year": 2017,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2017/jul/CUNY%20IT%20Fellowship%20Coop%20agreement.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-hra-20-20dohmh-20-cooperative-20agreement",
+      "title": "HRA-DOHMH. Medicaid Application assistance. July 1, 2017",
+      "parties": [
+        "DOHMH",
+        "HRA"
+      ],
+      "date": "July 1, 2017",
+      "year": 2017,
+      "category": "Health Data",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2017/jul/HRA%20-%20DOHMH%20-Cooperative%20Agreement.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-hra-20dycd-20renewal-20and-20mod-20to-20idnyc-20mou-206-5-17",
+      "title": "HRA DYCD. Renewals Mod to IDNYC. June 5, 2017",
+      "parties": [
+        "DYCD",
+        "HRA"
+      ],
+      "date": "June 5, 2017",
+      "year": 2017,
+      "category": "Youth & Families",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2017/june/HRA%20DYCD.%20Renewal%20and%20Mod%20to%20IDNYC%20MOU.%206.5.17.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-hra-20sbs-20amd-20to-20snap-20eandt-20program-6-2-17",
+      "title": "HRA SBS. Amd to SNAP E & T Program. June 2, 2017",
+      "parties": [
+        "HRA",
+        "SBS"
+      ],
+      "date": "June 2, 2017",
+      "year": 2017,
+      "category": "Identity & Benefits",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2017/june/HRA%20SBS.%20Amd%20to%20SNAP%20EandT%20Program.6.2.17.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-hra-20-20ny-20county-20da-20referrals-20for-20welfare-20fraud-205-25-17",
+      "title": "HRA- NY County DA. Referrals for Welfare Fraud. May 25, 2017",
+      "parties": [
+        "HRA"
+      ],
+      "date": "May 25, 2017",
+      "year": 2017,
+      "category": "Identity & Benefits",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2017/june/HRA%20%20NY%20County%20DA.%20Referrals%20for%20Welfare%20Fraud.%205.25.17.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-hra-20ocdv-20mocj-20family-20justice-20centers-20coop-20agree-205-25-17",
+      "title": "HRA OCDV MOCJ. Family Justice centers Coop Agree. May 25, 2017",
+      "parties": [
+        "HRA",
+        "MOCJ"
+      ],
+      "date": "May 25, 2017",
+      "year": 2017,
+      "category": "Criminal Justice",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2017/june/HRA%20OCDV%20MOCJ.%20FAmily%20Justice%20Centers%20Coop%20Agree.%205.25.17.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-hra-dycd-20summer-20youth-20employment-20program-203-29-2017",
+      "title": "HRA-DYCD. Summer Youth Employment Program. March 29, 2017",
+      "parties": [
+        "DYCD",
+        "HRA"
+      ],
+      "date": "March 29, 2017",
+      "year": 2017,
+      "category": "Youth & Families",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2017/mar/HRA-DYCD.%20Summer%20Youth%20employment%20Program.%203.29.2017.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-hra-dhs-moo-homestate-20operations-20renewal-3-1-2017",
+      "title": "HRA-DHS-MOO. Homestat Operations Renewal. March 1, 2017",
+      "parties": [
+        "DHS",
+        "HRA"
+      ],
+      "date": "March 1, 2017",
+      "year": 2017,
+      "category": "Housing",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2017/mar/HRA-DHS-MOO.Homestate%20Operations%20Renewal.3.1.2017.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-hra-dof-20renewal-20of-20idnyc-20operations",
+      "title": "HRA-DOF. Renewal of IDNYC operations. March 1, 2017",
+      "parties": [
+        "DOF",
+        "HRA"
+      ],
+      "date": "March 1, 2017",
+      "year": 2017,
+      "category": "Identity & Benefits",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2017/mar/HRA-DOF.%20Renewal%20of%20IDNYC%20Operations.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-dohmh-20-dss-20hiv-20aids-20data-20share-20to-20link-20to-20medical-20care-2-3-2017",
+      "title": "DOHMH \u2013 DSS. HIV/AIDS Data Share to Link to Medical Care. February 3, 2017",
+      "parties": [
+        "DOHMH",
+        "HRA"
+      ],
+      "date": "February 3, 2017",
+      "year": 2017,
+      "category": "Health Data",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2017/mar/DOHMH%20-DSS.%20HIV%20AIDS%20Data%20Share%20to%20link%20to%20Medical%20Care.2.3.2017.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-hra-20hpd-20mocs-20residdent-20data-20share-20with-20three-quarter-20houses-1-31-17",
+      "title": "HRA-HPD-MOCs. Resident Data Share with three-quarter Houses. January 31, 2017",
+      "parties": [
+        "HPD",
+        "HRA"
+      ],
+      "date": "January 31, 2017",
+      "year": 2017,
+      "category": "Housing",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2017/feb/HRA%20HPD%20MOCS.%20Residdent%20Data%20Share%20with%20three-quarter%20houses.1.31.17.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-dhs-20client-20shelter-20and-20placements-20data-20share",
+      "title": "HRA-DHS \u2013 IDNYC Client Shelter and Placement Data Share. January 18, 2017",
+      "parties": [
+        "DHS",
+        "HRA"
+      ],
+      "date": "January 18, 2017",
+      "year": 2017,
+      "category": "Housing",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2017/jan/DHS%20Client%20Shelter%20and%20Placements%20Data%20Share.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hra-comprehensive-20health-20assess-20team-204th-20renewal",
+      "title": "HRA \u2013 H+H \u2013 Comprehensive Health Assessment Team 4th Renewal. January 4, 2017",
+      "parties": [
+        "HRA"
+      ],
+      "date": "January 4, 2017",
+      "year": 2017,
+      "category": "Health Data",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2017/jan/Comprehensive%20Health%20Assess%20Team%204th%20Renewal.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dof-exchange-info-dtf",
+      "title": "Exchange of Information Agreement",
+      "parties": [
+        "DOF"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Financial/Benefits",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/finance/downloads/pdf/mou/exchange_info_dtf.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/finance/about/interagency-mou.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hpd-hpd-mou-06-23-16",
+      "title": "Programmatic Agreement Regarding the City\u2019s Demolition Program",
+      "parties": [
+        "HPD"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Housing",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hpd/downloads/pdfs/about/hpd-mou-06-23-16.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hpd/about/interagency-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hpd-hpd-mou-05-13-16",
+      "title": "MOU regarding Fair Housing Funds for Fair Housing Related Activities",
+      "parties": [
+        "HPD"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Housing",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hpd/downloads/pdfs/about/hpd-mou-05-13-16.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hpd/about/interagency-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hpd-hpd-mou-03-10-15",
+      "title": "MOU regarding HPD\u2019s provision of inspection services for HRA\u2019s LINC Rental Assistance Programs",
+      "parties": [
+        "HPD",
+        "HRA"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Housing",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hpd/downloads/pdfs/about/hpd-mou-03-10-15.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hpd/about/interagency-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hpd-hpd-mou-02-23-15",
+      "title": "MOU between HPD and DSNY regarding the inclusion of recycling coordinator information in HPD\u2019s Property Owner Registration System",
+      "parties": [
+        "DSNY",
+        "HPD"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Housing",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hpd/downloads/pdfs/about/hpd-mou-02-23-15.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hpd/about/interagency-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hpd-hpd-mou-04-23-15",
+      "title": "Agreement relating to preparation and submission by HRA of emergency housing services claims on behalf of HPD",
+      "parties": [
+        "HPD",
+        "HRA"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Housing",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hpd/downloads/pdfs/about/hpd-mou-04-23-15.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hpd/about/interagency-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hpd-hpd-mou-02-15-13",
+      "title": "Agreement relating to inter-agency data exchange",
+      "parties": [
+        "HPD"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Housing",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hpd/downloads/pdfs/about/hpd-mou-02-15-13.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hpd/about/interagency-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hpd-hpd-mou-10-11-12",
+      "title": "Agreement relating to electronic payment services",
+      "parties": [
+        "HPD"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Housing",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hpd/downloads/pdfs/about/hpd-mou-10-11-12.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hpd/about/interagency-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hpd-hpd-mou-03-23-12",
+      "title": "Agreement relating to transitional housing services",
+      "parties": [
+        "HPD"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Housing",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hpd/downloads/pdfs/about/hpd-mou-03-23-12.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hpd/about/interagency-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hpd-hpd-mou-11-04-11",
+      "title": "Activities Related to the City's Fair Housing Strategy",
+      "parties": [
+        "HPD"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Housing",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hpd/downloads/pdfs/about/hpd-mou-11-04-11.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hpd/about/interagency-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "hpd-hpd-mou-05-31-11",
+      "title": "Expansion of Existing Web Services for use by the Department of Health and Mental Hygiene",
+      "parties": [
+        "DOHMH",
+        "HPD"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Health Data",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/hpd/downloads/pdfs/about/hpd-mou-05-31-11.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/hpd/about/interagency-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dfta-20250729-nypd-data-for-elder-justice-outreach",
+      "title": "Agreement between NYPD and NYC Aging re: Elder Justice Services Outreach to Crime Victims Aged 60 or Older in Patrol Borough Manhattan North and the 5th Precinct, with First Renewal",
+      "parties": [
+        "DFTA",
+        "NYPD"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Criminal Justice",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/dfta/downloads/pdf/about/20250729_NYPD_Data_for_Elder_Justice_Outreach.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/dfta/about/interagency-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dfta-20250707-nycps-next50-anti-ageism-initiative",
+      "title": "Agreement between NYC Public Schools and NYC Aging re: Anti-Ageism Initiative",
+      "parties": [
+        "DFTA",
+        "DOE"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Education",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/dfta/downloads/pdf/about/20250707_NYCPS_Next50_Anti_Ageism_Initiative.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/dfta/about/interagency-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dfta-2024-04-04-hra-dss-mou-housing-support",
+      "title": "Agreement between HRA/DSS and NYC Aging re: Housing Support Program",
+      "parties": [
+        "DFTA",
+        "HRA"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Housing",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/dfta/downloads/pdf/about/2024-04-04_HRA_DSS_MOU_Housing_Support.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/dfta/about/interagency-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dfta-151001-hra-public-assistance-hiring-commitment-rider",
+      "title": "Agreement between HRA and NYC Aging re: Public Assistance Rider",
+      "parties": [
+        "DFTA",
+        "HRA"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/dfta/downloads/pdf/about/151001_HRA_Public_Assistance_Hiring_Commitment_Rider.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/dfta/about/interagency-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dfta-090828-dof-transfer-of-scrie",
+      "title": "Agreement between DOF and NYC Aging re: Transfer of the SCRIE Program",
+      "parties": [
+        "DFTA",
+        "DOF"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Financial/Benefits",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/dfta/downloads/pdf/about/090828_DOF_Transfer_of_SCRIE.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/dfta/about/interagency-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dfta-nyccc-fy26-28-mou-oti-nyc-aging-fully-executed",
+      "title": "Agreement between OTI and NYC Aging re: Connected Communities",
+      "parties": [
+        "DFTA",
+        "LAW",
+        "OTI"
+      ],
+      "date": "July 1, 2025",
+      "year": 2025,
+      "category": "Administrative",
+      "dataTypes": [
+        "Mental Health Records",
+        "Public Health Data",
+        "Contact Information",
+        "Employment Data",
+        "Infrastructure Data"
+      ],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/dfta/downloads/pdf/about/NYCCC-FY26-28_MOU_OTI_NYC-Aging_fully-executed.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/dfta/about/interagency-mous.page",
+      "description": "OTI views access to the internet as essential for full participation in New York City (\u201cCity\u201d),",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dycd-230912-cuny-career-launch-program-mou",
+      "title": "CUNY Career Launch Program Interagency Agreement",
+      "parties": [
+        "CUNY",
+        "DYCD"
+      ],
+      "date": "9/1/23",
+      "year": null,
+      "category": "Youth & Families",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/dycd/downloads/pdf/230912_CUNY_Career_Launch_Program_MOU.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/dycd/about/about-dycd/interagency-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dycd-240213cuny-fdc-and-esl-credential-program-agreement",
+      "title": "Agreement between DYCD and CUNY for Family Development and Empowerment Skills for Leaders Credential Programs",
+      "parties": [
+        "CUNY",
+        "DYCD",
+        "LAW",
+        "NYPD",
+        "OTI"
+      ],
+      "date": "October 20, 1983",
+      "year": 1983,
+      "category": "Criminal Justice",
+      "dataTypes": [
+        "Student Records",
+        "Enrollment Data",
+        "Identity Documents",
+        "Contact Information",
+        "Building Records",
+        "Infrastructure Data"
+      ],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/dycd/downloads/pdf/mou/240213CUNY_FDC_and_ESL_Credential-Program-Agreement.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/dycd/about/about-dycd/interagency-mous.page",
+      "description": "CUNY has, since 2014, supplied facilities and resources to deliver the respective",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dycd-260520-cuny-career-launch-program-mou-and-amendment",
+      "title": "CUNY Career Launch Program MOU and Amendment",
+      "parties": [
+        "CUNY",
+        "DYCD"
+      ],
+      "date": "July 1, 2026",
+      "year": 2026,
+      "category": "Youth & Families",
+      "dataTypes": [
+        "Student Records",
+        "Identity Documents",
+        "Contact Information",
+        "Employment Data"
+      ],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/dycd/downloads/pdf/mou/260520_CUNY_Career_Launch_Program_MOU-and-Amendment.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/dycd/about/about-dycd/interagency-mous.page",
+      "description": "Agency sought to provide funding to provide such workforce development training",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dycd-240712-dohmh-nyctc-sex-health-services-mou",
+      "title": "Memorandum of Understanding between DYCD and DOHMH NYC Teens Connection for Adolescent Sexual Health Education and Services",
+      "parties": [
+        "DOE",
+        "DOHMH",
+        "DYCD"
+      ],
+      "date": "June 28, 2024",
+      "year": 2024,
+      "category": "Health Data",
+      "dataTypes": [
+        "Public Health Data",
+        "Financial Records",
+        "Employment Data",
+        "Infrastructure Data"
+      ],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/dycd/downloads/pdf/mou/240712_DOHMH_NYCTC_Sex_Health_Services_MOU.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/dycd/about/about-dycd/interagency-mous.page",
+      "description": "assume full responsibility for the provision of all such legally required insurances and fringe benefits for its",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dycd-260520-cuny-fdc-and-esl-credential-program-agreement",
+      "title": "Interagency Agreement between DYCD CUNY FDC and ESL Credential Program Agreement",
+      "parties": [
+        "CUNY",
+        "DYCD",
+        "LAW",
+        "NYPD"
+      ],
+      "date": "July 1, 2023",
+      "year": 2023,
+      "category": "Criminal Justice",
+      "dataTypes": [
+        "Identity Documents",
+        "Contact Information",
+        "Building Records",
+        "Infrastructure Data"
+      ],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/dycd/downloads/pdf/mou/260520_CUNY_FDC_and_ESL_Credential_Program_Agreement.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/dycd/about/about-dycd/interagency-mous.page",
+      "description": "CUNY has, since 2014, supplied facilities and resources to deliver the respective",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dycd-260217-cuny-dycd-kbcc-wlgep-mou",
+      "title": "Agreement between DYCD and The City University of New York for the Work Learn and Grow Career Ready Program",
+      "parties": [
+        "CUNY",
+        "DYCD"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Youth & Families",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/dycd/downloads/pdf/mou/260217_CUNY_DYCD_KBCC_WLGEP_MOU.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/dycd/about/about-dycd/interagency-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dycd-260409-doe-dycd-making-waves-mou",
+      "title": "Agreement between DYCD and DOE granting access to DOE swimming pools and other spaces for the purposes of the Program",
+      "parties": [
+        "DOE",
+        "DOHMH",
+        "DYCD"
+      ],
+      "date": "July 1, 2025",
+      "year": 2025,
+      "category": "Health Data",
+      "dataTypes": [
+        "Financial Records",
+        "Contact Information",
+        "Building Records",
+        "Employment Data",
+        "Infrastructure Data"
+      ],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/dycd/downloads/pdf/mou/260409_DOE_DYCD_Making_Waves_MOU.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/dycd/about/about-dycd/interagency-mous.page",
+      "description": "the Parties wish to enter into this Agreement to establish the Parties\u2019 responsibilities",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dycd-250325-handh-hospital-based-antiviolence-programs-mou-and-renewal",
+      "title": "H+H Hospital-based Antiviolence Programs MOU",
+      "parties": [
+        "DYCD"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Health Data",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/dycd/downloads/pdf/mou/250325_HandH-Hospital-based_Antiviolence_Programs_MOU_and_Renewal.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/dycd/about/about-dycd/interagency-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dycd-250131-cuny-kbcc-wlg-careerready-interagency-agreement-with-renewals-and-amendments",
+      "title": "Interagency Agreement with CUNY for WLGEP Services at Kingsborough Community College",
+      "parties": [
+        "CUNY",
+        "DYCD"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Youth & Families",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/dycd/downloads/pdf/mou/250131_CUNY_KBCC_WLG_CareerReady-Interagency-Agreement-with-Renewals-and-Amendments.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/dycd/about/about-dycd/interagency-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dycd-230613hra-idnyc-enrollment-mou-renewal",
+      "title": "Agreement with DSS/HRA for the IDNYC Program",
+      "parties": [
+        "DYCD",
+        "HRA"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Youth & Families",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/dycd/downloads/pdf/mou/230613HRA_IDNYC_Enrollment_MOU_Renewal.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/dycd/about/about-dycd/interagency-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dycd-250121-doe-wlgep-mou-and-renewals",
+      "title": "Memorandum of Understanding with NYC DOE for CareerReady Work Learn Grow Employment Program",
+      "parties": [
+        "DOE",
+        "DYCD"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Youth & Families",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/dycd/downloads/pdf/mou/250121_DOE_WLGEP_MOU-and-Renewals.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/dycd/about/about-dycd/interagency-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dycd-251002-cuny-sps-nyc-dycd-intergenerational-change-summer-institute",
+      "title": "Interagency Agreement between DYCD and CUNY for Change Initiative Summer Institute",
+      "parties": [
+        "ACS",
+        "CUNY",
+        "DYCD",
+        "LAW",
+        "NYPD"
+      ],
+      "date": "October 20, 1983",
+      "year": 1983,
+      "category": "Criminal Justice",
+      "dataTypes": [
+        "Mental Health Records",
+        "Student Records",
+        "Contact Information",
+        "Building Records",
+        "Infrastructure Data"
+      ],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/dycd/downloads/pdf/mou/251002_CUNY_SPS-NYC_DYCD_Intergenerational_Change_Summer_Institute.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/dycd/about/about-dycd/interagency-mous.page",
+      "description": "in 2015, the Intergenerational Change Initiative (\"ICI\") was created as a research lab",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dycd-250910-ons-youth-leadership-council-mou-2nd-renewal",
+      "title": "Interagency Agreement with CUNY to establish the Office of Neighborhood Safety Youth Leadership Council with Second Renewal",
+      "parties": [
+        "CUNY",
+        "DYCD"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Youth & Families",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/dycd/downloads/pdf/mou/250910-ONS-Youth-Leadership-Council-MOU-2nd_Renewal.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/dycd/about/about-dycd/interagency-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dycd-250613-doe-careerready-syep-tcac-d75-mou-w-renewals-and-mods",
+      "title": "DOE CareerReady and TCAC SYEP MOU",
+      "parties": [
+        "DOE",
+        "DYCD"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Youth & Families",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/dycd/downloads/pdf/mou/250613_DOE_CareerReady-SYEP_TCAC_D75_MOU-w-Renewals-and-Mods.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/dycd/about/about-dycd/interagency-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dycd-230410syep-vyemerging-leaders-working-group-mou-with-mods-and-renewal",
+      "title": "SYEP Vulnerable Youth Emerging Leaders Working Group MOU with Mods and Renewal",
+      "parties": [
+        "DYCD"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Youth & Families",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/dycd/downloads/pdf/mou/230410SYEP_VYEmerging_Leaders-Working_Group_MOU-with-Mods-and-Renewal.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/dycd/about/about-dycd/interagency-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dycd-230118-dycd-nycha-syep-map-mou-renewal-and-mod",
+      "title": "Agreement between DYCD and NYCHA for SYEP CareerFIRST and SYEP MAP to $uccess Programs",
+      "parties": [
+        "DYCD"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Youth & Families",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/dycd/downloads/pdf/mou/230118_DYCD-NYCHA_SYEP_MAP_MOU_Renewal-and-Mod.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/dycd/about/about-dycd/interagency-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dycd-220818-dycd-acs-horizon-afterschool-weekend-summer-program-mou-renewal",
+      "title": "Renewal Agreement between DYCD and ACS for Horizon Juvenile Center Youth Programming",
+      "parties": [
+        "ACS",
+        "DYCD"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Youth & Families",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/dycd/downloads/pdf/mou/220818_DYCD_ACS_Horizon_Afterschool_Weekend_Summer_Program_MOU_Renewal.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/dycd/about/about-dycd/interagency-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dycd-220810-dycd-cuny-renewal-mou-for-fy23-25-dycd-scholars-program",
+      "title": "Agreement between DYCD and CUNY for the DYCD Scholars Program",
+      "parties": [
+        "CUNY",
+        "DYCD"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Youth & Families",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/dycd/downloads/pdf/mou/220810_DYCD_CUNY_Renewal_MOU_for_FY23-25_DYCD_Scholars_Program.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/dycd/about/about-dycd/interagency-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dycd-231220-acs-advance-and-earn-plus-mou-with-renewal-and-mod",
+      "title": "Renewal of the Intra-Agency Agreement between DYCD and ACS for the Advance and Earn Plus Program",
+      "parties": [
+        "ACS",
+        "DYCD"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Youth & Families",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/dycd/downloads/pdf/mou/231220_ACS_Advance_and_Earn_Plus_MOU_with_Renewal_and_Mod.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/dycd/about/about-dycd/interagency-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dycd-240823-acs-cure-violence-mou-renewal",
+      "title": "Memorandum of Understanding between DYCD and ACS for the Provision of Cure Violence Services to Youth in or receiving ACS Care",
+      "parties": [
+        "ACS",
+        "DYCD",
+        "MOCJ"
+      ],
+      "date": "July 1, 2022",
+      "year": 2022,
+      "category": "Criminal Justice",
+      "dataTypes": [
+        "Infrastructure Data"
+      ],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/dycd/downloads/pdf/mou/240823_ACS_Cure_Violence_MOU_Renewal.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/dycd/about/about-dycd/interagency-mous.page",
+      "description": "as of July l, 2023, 1hc City transremd th, responsibility for provision of Cure Violence",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dycd-151102-mou-hra-dycd-pa-hiring-wexhbits",
+      "title": "Memorandum of Understanding between DYCD and HRA for Public Assistance Hiring Commitment Rider",
+      "parties": [
+        "DYCD",
+        "HRA"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Youth & Families",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/dycd/downloads/pdf/151102_MOU_HRA_DYCD_PA_Hiring_wExhbits.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/dycd/about/about-dycd/interagency-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dcas-dcasmou-nyc-transit-dcas",
+      "title": "This MOU supports DCAS' and NYCTA's collaborative efforts to reduce the number of employees appointed provisionally to competitive class titles in the classified service and the length of time of such provisional appointments.",
+      "parties": [
+        "DCAS"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/dcas/downloads/pdf/mou/dcasmou_nyc_transit_dcas.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/dcas/about/interagency-memoranda-of-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dcas-dcasmou-triboroughbridgetunnelauthority-2",
+      "title": "Amendment to the Agreement for TBTA to take on greater responsibilities to develop, administer and score certain civil service exams.",
+      "parties": [
+        "DCAS"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/dcas/downloads/pdf/mou/dcasmou_triboroughbridgetunnelauthority_2.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/dcas/about/interagency-memoranda-of-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dcas-dcasmou-triboroughbridgetunnelauthority",
+      "title": "Agreement for TBTA to take on greater responsibilities to develop, administer and score certain civil service exams.",
+      "parties": [
+        "DCAS"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Administrative",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/dcas/downloads/pdf/mou/dcasmou_triboroughbridgetunnelauthority.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/dcas/about/interagency-memoranda-of-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dcas-dcasmou-hra",
+      "title": "Agreement for DCAS to provide transitional jobs to cash assistance recipients on parole.",
+      "parties": [
+        "DCAS"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Identity & Benefits",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/dcas/downloads/pdf/mou/dcasmou_hra.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/dcas/about/interagency-memoranda-of-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dcas-dcasmou-nyctransitauthority",
+      "title": "Agreement for NYC Transit to take on greater responsibilities to develop, administer, and score certain civil service exams.",
+      "parties": [
+        "DCAS"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Transportation",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/dcas/downloads/pdf/mou/dcasmou_nyctransitauthority.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/dcas/about/interagency-memoranda-of-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "dcas-dcasmou-cuny-addendum",
+      "title": "Agreement to use 80 Centre Street to assist NYC building owners in complying with Local Law 84/2009 (benchmarking compliance).",
+      "parties": [
+        "DCAS",
+        "LAW"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Transportation",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/dcas/downloads/pdf/mou/dcasmou_cuny_addendum.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/dcas/about/interagency-memoranda-of-understanding-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "doris-hipaamou",
+      "title": "Health Insurance Portability and Accountability Act (HIPAA)",
+      "parties": [
+        "DOHMH",
+        "DORIS",
+        "HRA",
+        "LAW"
+      ],
+      "date": "September 23, 2013",
+      "year": 2013,
+      "category": "Health Data",
+      "dataTypes": [
+        "Building Records"
+      ],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www1.nyc.gov/assets/records/pdf/HIPAAMOU.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/records/about/agency-mous.page",
+      "description": "September 23, 2013 (\"Effective Date\"), and shall supersede all Memoranda of Understanding",
+      "data_source": "scraped"
+    },
+    {
+      "id": "law-2314-001",
+      "title": "Business Associate Memorandum of Understanding by and between the New York City Law Department and the New York City Health and Hospitals Corporation",
+      "parties": [
+        "LAW"
+      ],
+      "date": null,
+      "year": null,
+      "category": "Health Data",
+      "dataTypes": [],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/law/downloads/pdf/2314_001.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/law/about/interagency-mous.page",
+      "description": "",
+      "data_source": "scraped"
+    },
+    {
+      "id": "law-0819-001",
+      "title": "Memorandum of Understanding Pursuant to Health Insurance Portability and Accountability Act by and among Covered Entity and Business Associate Agencies",
+      "parties": [
+        "DOHMH",
+        "DORIS",
+        "HRA",
+        "LAW"
+      ],
+      "date": "September 23, 2013",
+      "year": 2013,
+      "category": "Health Data",
+      "dataTypes": [
+        "Building Records"
+      ],
+      "jurisdiction": "nyc",
+      "pdfUrl": "https://www.nyc.gov/assets/law/downloads/pdf/0819_001.pdf",
+      "sourceUrl": "https://www.nyc.gov/site/law/about/interagency-mous.page",
+      "description": "September 23, 2013 (\"Effective Date\"), and shall supersede all Memoranda of Understanding",
+      "data_source": "scraped"
     }
   ]
 }

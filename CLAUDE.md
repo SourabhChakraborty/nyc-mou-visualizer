@@ -17,11 +17,27 @@ Pushes to `main` auto-deploy via GitHub Actions (`.github/workflows/deploy.yml`)
 
 ## Data
 
-`src/data/agreements.json` is the authoritative data file — hand-edited and scraped. Two entry types:
-- `"data_source": "confirmed"` — links to a published PDF
-- `"data_source": "seeded"` — manually curated, not yet verified against a PDF
+`src/data/agreements.json` is the authoritative data file. Two entry types:
+- `"data_source": "confirmed"` — manually curated with a verified published PDF link
+- `"data_source": "scraped"` — extracted directly from agency MOU pages; `pdfUrl` links to the actual published document
 
-To re-scrape: `node scraper/scrape.js --output src/data/scraped.json`. Note: nyc.gov returns 403 on many pages for automated requests even with browser headers; the scraper logs warnings and skips those. Output needs manual review before merging into `agreements.json`.
+**NEVER add `"data_source": "seeded"` entries or invent agreement data.** All past seeded entries were verified to be hallucinated — none appeared on the actual agency MOU pages. Any new entry must either have a real `pdfUrl` pointing to a published NYC government PDF, or be personally verified against a primary source by the user.
+
+### Re-scraping
+
+The full pipeline:
+
+```bash
+# 1. Scrape PDF links from all agency MOU pages
+node scraper/scrape.cjs --output /tmp/scraped.json --verbose
+
+# 2. Download each PDF and extract text/metadata
+python3 scraper/enrich.py --input /tmp/processed.json --output /tmp/enriched.json
+
+# 3. Manual review before merging into agreements.json
+```
+
+Note: nyc.gov returns 403 on some pages for automated requests. The scraper logs warnings and skips those. Output needs review before merging — particularly check category assignments and party detection, which are heuristic.
 
 ## Architecture
 
