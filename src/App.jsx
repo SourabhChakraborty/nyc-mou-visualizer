@@ -69,30 +69,15 @@ export default function App() {
           </span>
         </div>
         <div className="view-toggle">
-          <button
-            className={view === 'network' ? 'active' : ''}
-            onClick={() => setView('network')}
-          >
-            Network
-          </button>
-          <button
-            className={view === 'datatypes' ? 'active' : ''}
-            onClick={() => setView('datatypes')}
-          >
-            Data Types
-          </button>
-          <button
-            className={view === 'table' ? 'active' : ''}
-            onClick={() => setView('table')}
-          >
-            Table
-          </button>
-          <button
-            className={view === 'about' ? 'active' : ''}
-            onClick={() => setView('about')}
-          >
-            About
-          </button>
+          {['network', 'datatypes', 'table', 'about'].map(v => (
+            <button
+              key={v}
+              className={view === v ? 'active' : ''}
+              onClick={() => { setView(v); setSelected(null) }}
+            >
+              {v === 'datatypes' ? 'Data Types' : v.charAt(0).toUpperCase() + v.slice(1)}
+            </button>
+          ))}
         </div>
       </header>
 

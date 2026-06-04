@@ -164,7 +164,6 @@
       "category": "Financial/Benefits",
       "dataTypes": [
         "Benefits Eligibility",
-        "Contact Information",
         "Identity Documents"
       ],
       "jurisdiction": "nyc",
@@ -188,8 +187,7 @@
         "Health Records",
         "Public Health Data",
         "Case Records",
-        "Program Participation",
-        "Contact Information"
+        "Program Participation"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www1.nyc.gov/assets/hra/downloads/pdf/HRA-CUNY-DOHMH-Data-Sharing-HASA-pilot-program.pdf",
@@ -209,8 +207,7 @@
       "category": "Identity & Benefits",
       "dataTypes": [
         "Student Records",
-        "Enrollment Data",
-        "Contact Information"
+        "Enrollment Data"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www1.nyc.gov/assets/hra/downloads/pdf/HRA-DOE-Middle-School-IDNYC-cards.pdf",
@@ -250,7 +247,6 @@
       "year": 2020,
       "category": "Health Data",
       "dataTypes": [
-        "Contact Information",
         "Public Health Data"
       ],
       "jurisdiction": "nyc",
@@ -272,7 +268,6 @@
       "dataTypes": [
         "Mental Health Records",
         "Identity Documents",
-        "Contact Information",
         "Health Records"
       ],
       "jurisdiction": "nyc",
@@ -294,7 +289,6 @@
       "dataTypes": [
         "Benefits Eligibility",
         "Enrollment Data",
-        "Contact Information",
         "Health Records"
       ],
       "jurisdiction": "nyc",
@@ -315,8 +309,7 @@
       "category": "Financial/Benefits",
       "dataTypes": [
         "Case Records",
-        "Court Records",
-        "Contact Information"
+        "Court Records"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/finance/downloads/pdf/mou/coop_agreement_hra.pdf",
@@ -340,7 +333,6 @@
       "dataTypes": [
         "Benefits Eligibility",
         "Case Records",
-        "Contact Information",
         "Housing Records",
         "Program Participation",
         "Enrollment Data"
@@ -365,10 +357,8 @@
       "year": 2023,
       "category": "Youth & Families",
       "dataTypes": [
-        "Intake Data",
         "Enrollment Data",
         "Benefits Eligibility",
-        "Contact Information",
         "Case Records"
       ],
       "jurisdiction": "nyc",
@@ -410,8 +400,7 @@
       "year": 2023,
       "category": "Education",
       "dataTypes": [
-        "Program Participation",
-        "Contact Information"
+        "Program Participation"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www1.nyc.gov/assets/hra/downloads/pdf/about/mous/2023/HRA-CUNY-HSE-Connect-Renewal-Interagency-Agrmt.pdf",
@@ -431,8 +420,7 @@
       "category": "Administrative",
       "dataTypes": [
         "Program Participation",
-        "Financial Records",
-        "Contact Information"
+        "Financial Records"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www1.nyc.gov/assets/hra/downloads/pdf/about/mous/2022/HRA-Parks-MOU-OCSS-Snapshot.pdf",
@@ -454,7 +442,6 @@
       "dataTypes": [
         "Program Participation",
         "Employment Data",
-        "Contact Information",
         "Identity Documents"
       ],
       "jurisdiction": "nyc",
@@ -474,7 +461,6 @@
       "year": 2021,
       "category": "Administrative",
       "dataTypes": [
-        "Contact Information",
         "Housing Records",
         "Benefits Eligibility",
         "Case Records"
@@ -534,8 +520,7 @@
       "year": 2021,
       "category": "Identity & Benefits",
       "dataTypes": [
-        "Identity Documents",
-        "Contact Information"
+        "Identity Documents"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2021/HRA-Costco-IDNYC-Benefit-Partner-MOU.pdf",
@@ -556,7 +541,6 @@
       "dataTypes": [
         "Benefits Eligibility",
         "Case Records",
-        "Contact Information",
         "Employment Data",
         "Program Participation"
       ],
@@ -578,7 +562,6 @@
       "year": 2021,
       "category": "Financial/Benefits",
       "dataTypes": [
-        "Contact Information",
         "Financial Records",
         "Case Records"
       ],
@@ -598,7 +581,6 @@
       "year": 2021,
       "category": "Health Data",
       "dataTypes": [
-        "Contact Information",
         "Case Records",
         "Benefits Eligibility"
       ],
@@ -621,8 +603,7 @@
       "dataTypes": [
         "Benefits Eligibility",
         "Enrollment Data",
-        "Program Participation",
-        "Contact Information"
+        "Program Participation"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/HRA_%20CUNY-EDGE-Modification-agreement.pdf",
@@ -642,7 +623,6 @@
       "category": "Financial/Benefits",
       "dataTypes": [
         "Benefits Eligibility",
-        "Contact Information",
         "Identity Documents",
         "Financial Records"
       ],
@@ -664,7 +644,6 @@
       "year": 2019,
       "category": "Health Data",
       "dataTypes": [
-        "Contact Information",
         "Program Participation",
         "Health Records",
         "Housing Records"
@@ -688,8 +667,7 @@
       "dataTypes": [
         "Student Records",
         "Enrollment Data",
-        "Identity Documents",
-        "Contact Information"
+        "Identity Documents"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/HRA-DOE-Middle-School-IDNYC-cards.pdf",
@@ -708,7 +686,6 @@
       "year": 2019,
       "category": "Administrative",
       "dataTypes": [
-        "Contact Information",
         "Student Records"
       ],
       "jurisdiction": "nyc",
@@ -727,8 +704,7 @@
       "year": 2019,
       "category": "Identity & Benefits",
       "dataTypes": [
-        "Identity Documents",
-        "Contact Information"
+        "Identity Documents"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/HRA_%20Brooklyn_Events_Center_Brooklyn_Nets_LLC_third_renewal_agreement.pdf",
@@ -747,7 +723,6 @@
       "year": 2019,
       "category": "Administrative",
       "dataTypes": [
-        "Contact Information",
         "Enrollment Data",
         "Student Records",
         "Benefits Eligibility"
@@ -811,8 +786,7 @@
       "category": "Housing",
       "dataTypes": [
         "Housing Records",
-        "Building Records",
-        "Contact Information"
+        "Building Records"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/hra-dhs-data-sharing-mou-eam-lead-work-orders.pdf",
@@ -853,8 +827,7 @@
       "category": "Financial/Benefits",
       "dataTypes": [
         "Health Records",
-        "Benefits Eligibility",
-        "Contact Information"
+        "Benefits Eligibility"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-finance-17-088d-addendum-2019-09-13.pdf",
@@ -897,7 +870,6 @@
       "dataTypes": [
         "Benefits Eligibility",
         "Enrollment Data",
-        "Contact Information",
         "Program Participation"
       ],
       "jurisdiction": "nyc",
@@ -941,8 +913,7 @@
       "dataTypes": [
         "Enrollment Data",
         "Case Records",
-        "Student Records",
-        "Contact Information"
+        "Student Records"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/DSS_ACS_DOE%20Early%20Learn%20transfer%20MOU.pdf",
@@ -962,8 +933,7 @@
       "category": "Administrative",
       "dataTypes": [
         "Health Records",
-        "Benefits Eligibility",
-        "Contact Information"
+        "Benefits Eligibility"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-micsa-17-088l.pdf",
@@ -983,8 +953,7 @@
       "category": "Administrative",
       "dataTypes": [
         "Health Records",
-        "Benefits Eligibility",
-        "Contact Information"
+        "Benefits Eligibility"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-opa-17-088q.pdf",
@@ -1004,8 +973,7 @@
       "category": "Administrative",
       "dataTypes": [
         "Health Records",
-        "Benefits Eligibility",
-        "Contact Information"
+        "Benefits Eligibility"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-opa-17-088r.pdf",
@@ -1025,8 +993,7 @@
       "category": "Health Data",
       "dataTypes": [
         "Mental Health Records",
-        "Case Records",
-        "Contact Information"
+        "Case Records"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2018/HRA%20_%20DOHMH%20VPS%20MOA.pdf",
@@ -1047,8 +1014,7 @@
       "category": "Youth & Families",
       "dataTypes": [
         "Program Participation",
-        "Employment Data",
-        "Contact Information"
+        "Employment Data"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2018/HRA%20_DYCD%20_SYEP.pdf",
@@ -1067,8 +1033,7 @@
       "year": 2018,
       "category": "Housing",
       "dataTypes": [
-        "Case Records",
-        "Contact Information"
+        "Case Records"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2018/HRA_DHS%20Shelter%20space.pdf",
@@ -1088,8 +1053,7 @@
       "category": "Administrative",
       "dataTypes": [
         "Health Records",
-        "Benefits Eligibility",
-        "Contact Information"
+        "Benefits Eligibility"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-irea-17-088o.pdf",
@@ -1109,8 +1073,7 @@
       "category": "Administrative",
       "dataTypes": [
         "Health Records",
-        "Benefits Eligibility",
-        "Contact Information"
+        "Benefits Eligibility"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-irea-17-088p.pdf",
@@ -1130,7 +1093,6 @@
       "year": 2018,
       "category": "Administrative",
       "dataTypes": [
-        "Contact Information",
         "Program Participation"
       ],
       "jurisdiction": "nyc",
@@ -1154,7 +1116,6 @@
         "Health Records",
         "Mental Health Records",
         "Detention Records",
-        "Contact Information",
         "Case Records"
       ],
       "jurisdiction": "nyc",
@@ -1175,8 +1136,7 @@
       "category": "Administrative",
       "dataTypes": [
         "Health Records",
-        "Benefits Eligibility",
-        "Contact Information"
+        "Benefits Eligibility"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2018/NYSDOH-OHIP-Data-Use-agreement-CAS-17-088A-addendum.pdf",
@@ -1216,8 +1176,7 @@
       "category": "Administrative",
       "dataTypes": [
         "Housing Records",
-        "Financial Records",
-        "Contact Information"
+        "Financial Records"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2018/HRA_NYCHA_HRARentalArrearsPaymentAssistance_e-Service.pdf",
@@ -1237,7 +1196,6 @@
       "year": null,
       "category": "Administrative",
       "dataTypes": [
-        "Contact Information",
         "Case Records",
         "Program Participation"
       ],
@@ -1260,8 +1218,7 @@
       "dataTypes": [
         "Health Records",
         "Benefits Eligibility",
-        "Case Records",
-        "Contact Information"
+        "Case Records"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-finance-17-088c-addendum.pdf",
@@ -1281,8 +1238,7 @@
       "category": "Financial/Benefits",
       "dataTypes": [
         "Health Records",
-        "Benefits Eligibility",
-        "Contact Information"
+        "Benefits Eligibility"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-finance-17-088d-addendum.pdf",
@@ -1324,8 +1280,7 @@
       "dataTypes": [
         "Health Records",
         "Benefits Eligibility",
-        "Enrollment Data",
-        "Contact Information"
+        "Enrollment Data"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-oppm-17-088f-addendum.pdf",
@@ -1345,8 +1300,7 @@
       "category": "Administrative",
       "dataTypes": [
         "Health Records",
-        "Benefits Eligibility",
-        "Contact Information"
+        "Benefits Eligibility"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-oer-17-088g-addendum.pdf",
@@ -1366,8 +1320,7 @@
       "category": "Administrative",
       "dataTypes": [
         "Health Records",
-        "Benefits Eligibility",
-        "Contact Information"
+        "Benefits Eligibility"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-oer-17-088h-addendum.pdf",
@@ -1387,8 +1340,7 @@
       "category": "Administrative",
       "dataTypes": [
         "Health Records",
-        "Benefits Eligibility",
-        "Contact Information"
+        "Benefits Eligibility"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-hcsp-17-088k.pdf",
@@ -1408,8 +1360,7 @@
       "category": "Administrative",
       "dataTypes": [
         "Health Records",
-        "Benefits Eligibility",
-        "Contact Information"
+        "Benefits Eligibility"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-ola-17-088m.pdf",
@@ -1429,8 +1380,7 @@
       "category": "Administrative",
       "dataTypes": [
         "Health Records",
-        "Benefits Eligibility",
-        "Contact Information"
+        "Benefits Eligibility"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-ola-17-088n.pdf",
@@ -1450,8 +1400,7 @@
       "category": "Administrative",
       "dataTypes": [
         "Health Records",
-        "Benefits Eligibility",
-        "Contact Information"
+        "Benefits Eligibility"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-mis-17-088i.pdf",
@@ -1471,8 +1420,7 @@
       "category": "Administrative",
       "dataTypes": [
         "Benefits Eligibility",
-        "Health Records",
-        "Contact Information"
+        "Health Records"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-mis-17-088j.pdf",
@@ -1492,8 +1440,7 @@
       "category": "Administrative",
       "dataTypes": [
         "Health Records",
-        "Benefits Eligibility",
-        "Contact Information"
+        "Benefits Eligibility"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-cas-17-088b-addendum.pdf",
@@ -1513,8 +1460,7 @@
       "category": "Administrative",
       "dataTypes": [
         "Housing Records",
-        "Financial Records",
-        "Contact Information"
+        "Financial Records"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2018/HRA-NYCHA-HRA-Rental-Payment-Assistance.pdf",
@@ -1535,7 +1481,6 @@
       "category": "Health Data",
       "dataTypes": [
         "Enrollment Data",
-        "Contact Information",
         "Program Participation",
         "Public Health Data"
       ],
@@ -1557,8 +1502,7 @@
       "category": "Financial/Benefits",
       "dataTypes": [
         "Health Records",
-        "Benefits Eligibility",
-        "Contact Information"
+        "Benefits Eligibility"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-finance-17-088c.pdf",
@@ -1579,7 +1523,6 @@
       "dataTypes": [
         "Health Records",
         "Benefits Eligibility",
-        "Contact Information",
         "Program Participation"
       ],
       "jurisdiction": "nyc",
@@ -1600,8 +1543,7 @@
       "category": "Administrative",
       "dataTypes": [
         "Health Records",
-        "Benefits Eligibility",
-        "Contact Information"
+        "Benefits Eligibility"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-oppm-17-088e.pdf",
@@ -1621,8 +1563,7 @@
       "category": "Administrative",
       "dataTypes": [
         "Health Records",
-        "Benefits Eligibility",
-        "Contact Information"
+        "Benefits Eligibility"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-oppm-17-088f.pdf",
@@ -1642,8 +1583,7 @@
       "category": "Administrative",
       "dataTypes": [
         "Health Records",
-        "Benefits Eligibility",
-        "Contact Information"
+        "Benefits Eligibility"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-oer-17-088g.pdf",
@@ -1663,8 +1603,7 @@
       "category": "Administrative",
       "dataTypes": [
         "Health Records",
-        "Benefits Eligibility",
-        "Contact Information"
+        "Benefits Eligibility"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-oer-17-088h.pdf",
@@ -1684,8 +1623,7 @@
       "category": "Administrative",
       "dataTypes": [
         "Health Records",
-        "Benefits Eligibility",
-        "Contact Information"
+        "Benefits Eligibility"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/nysdoh-ohip-data-use-agreement-cas-17-088b.pdf",
@@ -1704,7 +1642,6 @@
       "year": null,
       "category": "Housing",
       "dataTypes": [
-        "Contact Information",
         "Case Records"
       ],
       "jurisdiction": "nyc",
@@ -1725,7 +1662,6 @@
       "category": "Health Data",
       "dataTypes": [
         "Identity Documents",
-        "Contact Information",
         "Enrollment Data"
       ],
       "jurisdiction": "nyc",
@@ -1809,7 +1745,6 @@
       "dataTypes": [
         "Benefits Eligibility",
         "Enrollment Data",
-        "Contact Information",
         "Health Records"
       ],
       "jurisdiction": "nyc",
@@ -1893,7 +1828,6 @@
       "category": "Criminal Justice",
       "dataTypes": [
         "Case Records",
-        "Contact Information",
         "Program Participation"
       ],
       "jurisdiction": "nyc",
@@ -1936,7 +1870,6 @@
       "category": "Housing",
       "dataTypes": [
         "Case Records",
-        "Contact Information",
         "Program Participation",
         "Benefits Eligibility"
       ],
@@ -1957,8 +1890,7 @@
       "year": 2017,
       "category": "Identity & Benefits",
       "dataTypes": [
-        "Identity Documents",
-        "Contact Information"
+        "Identity Documents"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hra/downloads/pdf/about/mous/2017/mar/HRA-DOF.%20Renewal%20of%20IDNYC%20Operations.pdf",
@@ -1980,7 +1912,6 @@
       "dataTypes": [
         "Health Records",
         "Public Health Data",
-        "Contact Information",
         "Program Participation",
         "Case Records"
       ],
@@ -2002,7 +1933,6 @@
       "year": 2017,
       "category": "Housing",
       "dataTypes": [
-        "Contact Information",
         "Housing Records",
         "Case Records",
         "Identity Documents"
@@ -2026,7 +1956,6 @@
       "dataTypes": [
         "Case Records",
         "Enrollment Data",
-        "Contact Information",
         "Program Participation"
       ],
       "jurisdiction": "nyc",
@@ -2146,7 +2075,6 @@
       "year": null,
       "category": "Housing",
       "dataTypes": [
-        "Contact Information",
         "Building Records"
       ],
       "jurisdiction": "nyc",
@@ -2166,7 +2094,6 @@
       "year": null,
       "category": "Housing",
       "dataTypes": [
-        "Contact Information",
         "Housing Records",
         "Financial Records",
         "Case Records"
@@ -2193,7 +2120,6 @@
       "dataTypes": [
         "Benefits Eligibility",
         "Case Records",
-        "Contact Information",
         "Enrollment Data",
         "Financial Records",
         "Housing Records"
@@ -2216,8 +2142,7 @@
       "category": "Housing",
       "dataTypes": [
         "Financial Records",
-        "Enrollment Data",
-        "Contact Information"
+        "Enrollment Data"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/hpd/downloads/pdfs/about/hpd-mou-10-11-12.pdf",
@@ -2238,7 +2163,6 @@
       "dataTypes": [
         "Housing Records",
         "Case Records",
-        "Contact Information",
         "Program Participation"
       ],
       "jurisdiction": "nyc",
@@ -2259,7 +2183,6 @@
       "category": "Housing",
       "dataTypes": [
         "Building Records",
-        "Contact Information",
         "Housing Records"
       ],
       "jurisdiction": "nyc",
@@ -2299,8 +2222,7 @@
       "year": null,
       "category": "Criminal Justice",
       "dataTypes": [
-        "Arrest Records",
-        "Contact Information"
+        "Arrest Records"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/dfta/downloads/pdf/about/20250729_NYPD_Data_for_Elder_Justice_Outreach.pdf",
@@ -2340,7 +2262,6 @@
       "category": "Housing",
       "dataTypes": [
         "Case Records",
-        "Contact Information",
         "Housing Records",
         "Court Records",
         "Program Participation"
@@ -2363,7 +2284,6 @@
       "category": "Administrative",
       "dataTypes": [
         "Benefits Eligibility",
-        "Contact Information",
         "Program Participation",
         "Employment Data"
       ],
@@ -2385,7 +2305,6 @@
       "category": "Financial/Benefits",
       "dataTypes": [
         "Benefits Eligibility",
-        "Contact Information",
         "Financial Records",
         "Case Records"
       ],
@@ -2406,7 +2325,6 @@
       "year": 2025,
       "category": "Administrative",
       "dataTypes": [
-        "Contact Information",
         "Program Participation"
       ],
       "jurisdiction": "nyc",
@@ -2443,8 +2361,8 @@
         "CUNY",
         "DYCD"
       ],
-      "date": "October 20, 1983",
-      "year": 1983,
+      "date": null,
+      "year": null,
       "category": "Criminal Justice",
       "dataTypes": [
         "Student Records",
@@ -2489,8 +2407,7 @@
       "year": 2024,
       "category": "Health Data",
       "dataTypes": [
-        "Program Participation",
-        "Contact Information"
+        "Program Participation"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/dycd/downloads/pdf/mou/240712_DOHMH_NYCTC_Sex_Health_Services_MOU.pdf",
@@ -2633,12 +2550,11 @@
         "CUNY",
         "DYCD"
       ],
-      "date": "October 20, 1983",
-      "year": 1983,
+      "date": null,
+      "year": null,
       "category": "Criminal Justice",
       "dataTypes": [
-        "Program Participation",
-        "Contact Information"
+        "Program Participation"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/dycd/downloads/pdf/mou/251002_CUNY_SPS-NYC_DYCD_Intergenerational_Change_Summer_Institute.pdf",
@@ -2802,7 +2718,6 @@
       "category": "Youth & Families",
       "dataTypes": [
         "Benefits Eligibility",
-        "Contact Information",
         "Employment Data",
         "Program Participation"
       ],
@@ -2843,8 +2758,7 @@
       "year": null,
       "category": "Administrative",
       "dataTypes": [
-        "Program Participation",
-        "Contact Information"
+        "Program Participation"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/dcas/downloads/pdf/mou/dcasmou_triboroughbridgetunnelauthority_2.pdf",
@@ -2967,8 +2881,7 @@
       "year": null,
       "category": "Health Data",
       "dataTypes": [
-        "Health Records",
-        "Contact Information"
+        "Health Records"
       ],
       "jurisdiction": "nyc",
       "pdfUrl": "https://www.nyc.gov/assets/law/downloads/pdf/2314_001.pdf",
