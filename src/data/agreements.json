@@ -144,6 +144,11 @@
       "id": "MOPT",
       "name": "Mayor's Office for People with Disabilities / MOPT",
       "mouUrl": null
+    },
+    {
+      "id": "DSS",
+      "name": "Dept. of Social Services / Human Resources Administration",
+      "mouUrl": "https://www.nyc.gov/site/hra/about/interagency-memoranda-understanding-mous.page"
     }
   ],
   "agreements": [
@@ -819,7 +824,7 @@
       "id": "hra-nysdoh-ohip-data-use-agreement-finance-17-088c-addendum-2019-09-13",
       "title": "NYSDOH OHIP DUA Finance 17-088C addendum. September 13, 2019",
       "parties": [
-        "DOH",
+        "DOHMH",
         "HRA"
       ],
       "date": "September 13, 2019",
@@ -840,8 +845,7 @@
       "id": "hra-nysdoh-ohip-data-use-agreement-finance-17-088d-addendum-2019-09-13",
       "title": "NYSDOH OHIP DUA Finance 17-088D addendum. September 13, 2019",
       "parties": [
-        "DOH",
-        "DSS",
+        "DOHMH",
         "HRA"
       ],
       "date": "September 13, 2019",
@@ -950,8 +954,7 @@
       "id": "hra-nysdoh-ohip-data-use-agreement-micsa-17-088l",
       "title": "NYSDOH OHIP Data Use agreement MICSA 17-088L. October 24, 2018",
       "parties": [
-        "DOH",
-        "DSS",
+        "DOHMH",
         "HRA"
       ],
       "date": "October 24, 2018",
@@ -972,7 +975,6 @@
       "id": "hra-nysdoh-ohip-data-use-agreement-opa-17-088q",
       "title": "NYSDOH OHIP Data Use agreement OPA 17-088Q. September 7 , 2018",
       "parties": [
-        "DSS",
         "HRA",
         "NYSDOH"
       ],
@@ -994,7 +996,7 @@
       "id": "hra-nysdoh-ohip-data-use-agreement-opa-17-088r",
       "title": "NYSDOH OHIP Data Use agreement OPA 17-088R. September 7 , 2018",
       "parties": [
-        "DOH",
+        "DOHMH",
         "HRA"
       ],
       "date": null,
@@ -1078,7 +1080,7 @@
       "id": "hra-nysdoh-ohip-data-use-agreement-irea-17-088o",
       "title": "NYSDOH OHIP Data Use agreement IREA 17-088O. August 29, 2018",
       "parties": [
-        "DOH",
+        "DOHMH",
         "HRA"
       ],
       "date": "August 29, 2018",
@@ -1099,8 +1101,7 @@
       "id": "hra-nysdoh-ohip-data-use-agreement-irea-17-088p",
       "title": "NYSDOH OHIP Data Use agreement IREA 17-088P. August 29, 2018",
       "parties": [
-        "DOH",
-        "DSS",
+        "DOHMH",
         "HRA"
       ],
       "date": "August 29, 2018",
@@ -1166,8 +1167,7 @@
       "id": "hra-nysdoh-ohip-data-use-agreement-cas-17-088a-addendum",
       "title": "NYSDOH OHIP DUA CAS 17-088A addendum. July 23, 2018",
       "parties": [
-        "DOH",
-        "DSS",
+        "DOHMH",
         "HRA"
       ],
       "date": "July 23, 2018",
@@ -1188,7 +1188,7 @@
       "id": "hra-nysdoh-ohip-data-use-agreement-cas-17-088a",
       "title": "NYSDOH OHIP Data Use agreement CAS 17-088A. July 20, 2018",
       "parties": [
-        "DOH",
+        "DOHMH",
         "HRA"
       ],
       "date": "July 20, 2018",
@@ -1251,8 +1251,7 @@
       "id": "hra-nysdoh-ohip-data-use-agreement-finance-17-088c-addendum",
       "title": "NYSDOH OHIP DUA Finance 17-088C addendum. July 10, 2018",
       "parties": [
-        "DOH",
-        "DSS",
+        "DOHMH",
         "HRA"
       ],
       "date": "July 10, 2018",
@@ -1274,8 +1273,7 @@
       "id": "hra-nysdoh-ohip-data-use-agreement-finance-17-088d-addendum",
       "title": "NYSDOH OHIP DUA Finance 17-088D addendum. July 10, 2018",
       "parties": [
-        "DOH",
-        "DSS",
+        "DOHMH",
         "HRA"
       ],
       "date": "July 10, 2018",
@@ -1296,8 +1294,7 @@
       "id": "hra-nysdoh-ohip-data-use-agreement-oppm-17-088e-addendum",
       "title": "NYSDOH OHIP DUA OPPM 17-088E addendum. July 10, 2018",
       "parties": [
-        "DOH",
-        "DSS",
+        "DOHMH",
         "HRA"
       ],
       "date": "July 10, 2018",
@@ -1318,7 +1315,7 @@
       "id": "hra-nysdoh-ohip-data-use-agreement-oppm-17-088f-addendum",
       "title": "NYSDOH OHIP DUA OPPM 17-088F addendum. July 10, 2018",
       "parties": [
-        "DOH",
+        "DOHMH",
         "HRA"
       ],
       "date": "July 10, 2018",
@@ -1340,8 +1337,7 @@
       "id": "hra-nysdoh-ohip-data-use-agreement-oer-17-088g-addendum",
       "title": "NYSDOH OHIP DUA OER 17-088G addendum. July 10, 2018",
       "parties": [
-        "DOH",
-        "DSS",
+        "DOHMH",
         "HRA"
       ],
       "date": "July 10, 2018",
@@ -1362,7 +1358,7 @@
       "id": "hra-nysdoh-ohip-data-use-agreement-oer-17-088h-addendum",
       "title": "NYSDOH OHIP DUA OER 17-088H addendum. July 10, 2018",
       "parties": [
-        "DOH",
+        "DOHMH",
         "HRA"
       ],
       "date": "July 10, 2018",
@@ -1383,7 +1379,7 @@
       "id": "hra-nysdoh-ohip-data-use-agreement-hcsp-17-088k",
       "title": "NYSDOH OHIP Data Use agreement HCSP 17-088K. July 20, 2018",
       "parties": [
-        "DOH",
+        "DOHMH",
         "HRA"
       ],
       "date": "July 20, 2018",
@@ -1404,8 +1400,7 @@
       "id": "hra-nysdoh-ohip-data-use-agreement-ola-17-088m",
       "title": "NYSDOH OHIP Data Use agreement OLA 17-088M. July 20, 2018",
       "parties": [
-        "DOH",
-        "DSS",
+        "DOHMH",
         "HRA"
       ],
       "date": "July 20, 2018",
@@ -1426,8 +1421,7 @@
       "id": "hra-nysdoh-ohip-data-use-agreement-ola-17-088n",
       "title": "NYSDOH OHIP Data Use agreement OLA 17-088N. July 20, 2018",
       "parties": [
-        "DOH",
-        "DSS",
+        "DOHMH",
         "HRA"
       ],
       "date": "July 20, 2018",
@@ -1448,8 +1442,7 @@
       "id": "hra-nysdoh-ohip-data-use-agreement-mis-17-088i",
       "title": "NYSDOH OHIP Data Use agreement MIS 17-088I. July 23, 2018",
       "parties": [
-        "DOH",
-        "DSS",
+        "DOHMH",
         "HRA"
       ],
       "date": "July 23, 2018",
@@ -1470,8 +1463,7 @@
       "id": "hra-nysdoh-ohip-data-use-agreement-mis-17-088j",
       "title": "NYSDOH OHIP Data Use agreement MIS 17-088J. July 23, 2018",
       "parties": [
-        "DOH",
-        "DSS",
+        "DOHMH",
         "HRA"
       ],
       "date": "July 23, 2018",
@@ -1492,8 +1484,7 @@
       "id": "hra-nysdoh-ohip-data-use-agreement-cas-17-088b-addendum",
       "title": "NYSDOH OHIP DUA CAS 17-088B addendum. July 10, 2018",
       "parties": [
-        "DOH",
-        "DSS",
+        "DOHMH",
         "HRA"
       ],
       "date": "July 10, 2018",
@@ -1558,8 +1549,7 @@
       "id": "hra-nysdoh-ohip-data-use-agreement-finance-17-088c",
       "title": "NYSDOH OHIP Data Use agreement Finance 17-088C. May 10, 2018",
       "parties": [
-        "DOH",
-        "DSS",
+        "DOHMH",
         "HRA"
       ],
       "date": "May 10, 2018",
@@ -1580,8 +1570,7 @@
       "id": "hra-nysdoh-ohip-data-use-agreement-finance-17-088d",
       "title": "NYSDOH OHIP Data Use agreement Finance 17-088D. May 10, 2018",
       "parties": [
-        "DOH",
-        "DSS",
+        "DOHMH",
         "HRA"
       ],
       "date": "May 10, 2018",
@@ -1603,8 +1592,7 @@
       "id": "hra-nysdoh-ohip-data-use-agreement-oppm-17-088e",
       "title": "NYSDOH OHIP Data Use agreement OPPM 17-088E. May 10, 2018",
       "parties": [
-        "DOH",
-        "DSS",
+        "DOHMH",
         "HRA"
       ],
       "date": "May 10, 2018",
@@ -1625,8 +1613,7 @@
       "id": "hra-nysdoh-ohip-data-use-agreement-oppm-17-088f",
       "title": "NYSDOH OHIP Data Use agreement OPPM 17-088F. May 10, 2018",
       "parties": [
-        "DOH",
-        "DSS",
+        "DOHMH",
         "HRA"
       ],
       "date": "May 10, 2018",
@@ -1647,8 +1634,7 @@
       "id": "hra-nysdoh-ohip-data-use-agreement-oer-17-088g",
       "title": "NYSDOH OHIP Data Use agreement OER 17-088G. May 10, 2018",
       "parties": [
-        "DOH",
-        "DSS",
+        "DOHMH",
         "HRA"
       ],
       "date": "May 10, 2018",
@@ -1669,8 +1655,7 @@
       "id": "hra-nysdoh-ohip-data-use-agreement-oer-17-088h",
       "title": "NYSDOH OHIP Data Use agreement OER 17-088H. May 10, 2018",
       "parties": [
-        "DOH",
-        "DSS",
+        "DOHMH",
         "HRA"
       ],
       "date": "May 10, 2018",
@@ -1691,7 +1676,7 @@
       "id": "hra-nysdoh-ohip-data-use-agreement-cas-17-088b",
       "title": "NYSDOH OHIP Data Use agreement CAS 17-088B. March 14, 2018",
       "parties": [
-        "DOH",
+        "DOHMH",
         "HRA"
       ],
       "date": "March 14, 2018",
@@ -2348,7 +2333,6 @@
       "title": "Agreement between HRA/DSS and NYC Aging re: Housing Support Program",
       "parties": [
         "DFTA",
-        "DSS",
         "HRA"
       ],
       "date": null,
